@@ -102,7 +102,8 @@
 } 
 
 
-.flip-card-back:hover {
-  background-color: #23c433;;
-  transform: rotateY(180deg); 
+@media (hover: hover) {
+  .flip-card-back:hover {
+    background-color: #23c433;;
+  }
 }
