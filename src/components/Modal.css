@@ -1,0 +1,25 @@
+dialog[open] {
+    border: none;
+    padding: 50px 80px;
+}
+
+dialog[open] a:focus-visible {
+  outline: none;
+}
+
+dialog[open]:focus-visible {
+  outline: none;
+}
+
+@media (max-width: 1024px) {
+  dialog[open] {
+    margin: auto 30px;
+    padding: 20px 50px;
+    font-size: 15px;
+  }
+
+  dialog[open] button {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+}

@@ -1,0 +1,17 @@
+.board {
+    background-color: #100c34;
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    position: relative;
+  }
+
+  @media (max-width: 1024px) {
+    .board {
+      height: 100%;
+    }
+  }

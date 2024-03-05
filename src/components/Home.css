@@ -1,0 +1,40 @@
+.home__main-app {
+    background-color: #100c34;
+    color: #fff;
+    width: 100vw;
+    height: calc(100vh - 100px);
+    padding: 50px;
+}
+
+@media (max-width: 1024px) {
+    .home__main-app {
+        width: auto;
+    }
+  }
+
+.home__modal-spreads {
+    display: flex;
+    flex-direction: column;
+}
+
+.home__modal-links {
+    color: #000;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.home__modal-links:hover {
+    color: #23c433;
+}
+
+.home__modal-title {
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.home__modal-exit {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 20px;
+    cursor: pointer;
+}

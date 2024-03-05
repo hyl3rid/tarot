@@ -1,0 +1,348 @@
+.reveal {
+    background-color: #100c34;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    color: #fff;
+}
+
+.reveal__spreads {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+}
+
+.reveal-image {
+    height: 144px;
+    width: 96px;
+}
+
+.reveal-image:hover {
+    z-index: 100;
+}
+
+.reversed {
+    transform: scaleY(-1);
+}
+
+.three-cards__container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+
+.three-cards__selected-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.three-cards {
+    margin-top: 50px;
+    padding: 30px;
+    height: 240px;
+    width: 160px;
+}
+
+.reveal__return-home--three-cards {
+    margin-top: 50px;
+}
+
+.situation {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.situation.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.cross-purpose {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(290deg);
+}
+
+.cross-purpose.reversed {
+    transform: translate(-50%, -50%) rotate(290deg) scaleY(-1);
+}
+
+.foundation {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.foundation.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.past-influences {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.past-influences.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.future {
+    position: absolute;
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.future.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.past {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+
+.past.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.self {
+    position: absolute;
+    top: 88%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.self.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.environment {
+    position: absolute;
+    top: 63%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.environment.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.hopes-fears {
+    position: absolute;
+    top: 38%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.hopes-fears.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.outcome {
+    position: absolute;
+    top: 13%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+}
+
+.outcome.reversed {
+    transform: translate(-50%, -50%) scaleY(-1);
+}
+
+.reveal__return-home {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.celtic-cross__title {
+    position: absolute;
+    top: 40%;
+    left: 5%;
+}
+
+.reveal__modal-exit {
+    display: flex;
+    justify-content: flex-end;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.reveal__modal-title {
+    margin: 20px 0;
+}
+
+.reveal_modal-container .reveal-image {
+    height: 288px;
+    width: 192px;
+}
+
+.three-cards__title {
+    margin-top: 100px;
+}
+
+.three-cards__card-container {
+    max-width: 250px;
+}
+
+@media (max-width: 1024px) {
+    .reveal {
+        background-color: #100c34;
+        width: 100vw;
+        height: 100%;
+        max-height: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        color: #fff;
+    }
+
+    .three-cards__title {
+        margin-top: 50px;
+    }
+
+    .celtic-cross {
+        height: 100vh;
+        max-height: 100%;
+    }
+
+    .celtic-cross__title {
+        position: absolute;
+        top: 5%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        white-space: nowrap;
+    }
+
+    .celtic-cross__container {
+        font-size: 10px;
+    }
+
+    .celtic-cross__container p {
+        font-size: 10px;
+    }
+
+    .reveal-image {
+        height: 144px;
+        width: 96px;
+    }
+
+    .reveal_modal-container .reveal-image {
+        height: 144px;
+        width: 96px;
+    }
+    
+    .three-cards__selected-cards {
+        flex-direction: column;
+    }
+
+    .three-cards__card-container {
+        max-width: 90%;
+    }
+
+
+    .celtic-cross__card {
+        height: 96px;
+        width: 64px;
+    }
+
+    .situation {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .cross-purpose {
+        position: absolute;
+        top: 40%;
+        left: 40%;
+        transform: translate(-50%, -50%) rotate(290deg);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .foundation {
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .past-influences {
+        position: absolute;
+        top: 55%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .future {
+        position: absolute;
+        top: 40%;
+        left: 64%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .past {
+        position: absolute;
+        top: 40%;
+        left: 12%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .self {
+        position: absolute;
+        top: 70%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .environment {
+        position: absolute;
+        top: 55%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: flex-end;
+    }
+    
+    .hopes-fears {
+        position: absolute;
+        top: 40%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .outcome {
+        position: absolute;
+        top: 25%;
+        left: 85%;
+        transform: translate(-50%, -50%);
+    }
+
+    .reveal__return-home {
+        position: absolute;
+        top: 85%;
+        left: 50%;
+        transform: translate(-50%);
+    }
+  }
