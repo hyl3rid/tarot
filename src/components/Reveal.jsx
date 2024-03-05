@@ -121,6 +121,7 @@ function Reveal() {
                                 renderSelected[3].title, 
                                 selectedReversed[3], 
                                 "Past Influences",
+                                "Influences of the past that made the querent take this path",
                                 renderSelected[3].upward, 
                                 renderSelected[3].downward
                             )}
@@ -134,6 +135,7 @@ function Reveal() {
                                 renderSelected[4].title, 
                                 selectedReversed[4], 
                                 "Possible Future",
+                                "Near future that may occur",
                                 renderSelected[4].upward, 
                                 renderSelected[4].downward
                             )}
@@ -147,6 +149,7 @@ function Reveal() {
                                 renderSelected[5].title, 
                                 selectedReversed[5], 
                                 "Past",
+                                "The past of the querent",
                                 renderSelected[5].upward, 
                                 renderSelected[5].downward
                             )}

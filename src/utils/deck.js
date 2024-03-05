@@ -79,14 +79,14 @@ const deck = [
     {
         title: "The Fool",
         image: Fool,
-        upward: "The Fool represents new beginnings, positivism, and a free spirit.",
-        downward: "Downward, the Fool can represent new beginnings but avoid being reckless and careless."
+        upward: "The Fool represents new beginnings, positivism, being naive and a free spirit. He reminds us that things don't have to be the same always.",
+        downward: "Downward, the Fool can represent new beginnings but avoid being reckless and careless as there may be difficulties on the path."
     },
     {
         title: "The Magician",
         image: Magician,
         upward: "The Magician represents the master of manifestation. You are ready to make your dreams come true as you are now equipped with everything in your power to manifest your desires.",
-        downward: "Downward, the Magician has all in his power to destroy and unmanifest achivements, but not in an evil manner but may just bringe positive change."
+        downward: "Downward, the Magician has all in his power to destroy and unmanifest achievements, but not in an evil manner but may just bring positive change."
     },
     {
         title: "High Priestess",
@@ -97,7 +97,7 @@ const deck = [
     {
         title: "The Empress",
         image: TheEmpress,
-        upward: "The Empress represent motherhood and everything that is encompased such as joys, pleasures and abundance. It represents creation",
+        upward: "The Empress represent motherhood and everything that is encompased such as joys, pleasures and abundance. It represents energy of creation.",
         downward: "Downward, The Empress encourages you to practice self love in every aspect and recognize every effort you put in place to strive on."
     },
     {
@@ -178,7 +178,9 @@ const deck = [
     },
     {
         title: "Seven of Wands",
-        image: Wands07
+        image: Wands07,
+        upward: "Seven of Wands is an indication to hold your ground against all odds. That you have a envydiable position and others are willing to take it.",
+        downward: "Downward, the Seven of Wands indicates that that querent should continue on the pursuit of his desires and should seek success and decisiveness."
     },
     {
         title: "Eight of Wands",
@@ -215,39 +217,41 @@ const deck = [
         image: Cups01
     },
     {
-        title: "Cups II",
+        title: "Two of Cups",
         image: Cups02
     },
     {
-        title: "Cups III",
+        title: "Three of Cups",
         image: Cups03
     },
     {
-        title: "Cups IV",
+        title: "Four of Cups",
         image: Cups04
     },
     {
-        title: "Cups V",
+        title: "Five of Cups",
         image: Cups05
     },
     {
-        title: "Cups VI",
+        title: "Six of Cups",
         image: Cups06
     },
     {
-        title: "Cups VII",
+        title: "Seven of Cups",
         image: Cups07
     },
     {
-        title: "Cups VIII",
-        image: Cups08
+        title: "Eight of Cups",
+        image: Cups08,
+        upward: "The Eight of Cups brings to attention that the querent has put good effort on certain aspect of his life but resulted unfulfilling thus leave the project behind.",
+        downward: "Downward, the Eight of Cups reminds you that you are drifting aimlessly. It may be time to find a place to stay for a while."
     },
     {
-        title: "Cups IX",
+        title: "Nine of Cups",
         image: Cups09
     },
     {
-        title: "Cups X",
+        title: "Ten of Cups",
         image: Cups10
     },
     {
@@ -275,39 +279,39 @@ const deck = [
         image: Swords01
     },
     {
-        title: "Swords II",
+        title: "Two of Swords",
         image: Swords02
     },
     {
-        title: "Swords III",
+        title: "Three of Swords",
         image: Swords03
     },
     {
-        title: "Swords IV",
+        title: "Four of Swords",
         image: Swords04
     },
     {
-        title: "Swords V",
+        title: "Five of Swords",
         image: Swords05
     },
     {
-        title: "Swords VI",
+        title: "Six of Swords",
         image: Swords06
     },
     {
-        title: "Swords VII",
+        title: "Seven of Swords",
         image: Swords07
     },
     {
-        title: "Swords VIII",
+        title: "Eight of Swords",
         image: Swords08
     },
     {
-        title: "Swords IX",
+        title: "Nine of Swords",
         image: Swords09
     },
     {
-        title: "Swords X",
+        title: "Ten of Swords",
         image: Swords10
     },
     {
@@ -326,12 +330,14 @@ const deck = [
     },
     {
         title: "King of Swords",
-        image: Swords14
+        image: Swords14,
+        upward: "The King of Swords is a person that is very analytical and intelectual. Very firm on he way of being and expects the same from the others.",
+        downward: "Downward, the King of Swords may be not use his power in the most positive ways. He might be hurtful by being cynical or giving strong criticism."
     },
     {
         title: "Ace of Pentacles",
         image: Pents01,
-        upward: "Ace of Pentacles wants to inform you that an opportunity for financial gain is possible for your. That you have everything it takes to overcome the challenges this opportunity may bring.",
+        upward: "Ace of Pentacles wants to inform you that an opportunity for financial gain is possible for you. That you have everything it takes to overcome the challenges this opportunity may bring.",
         downward: "Downward, the Ace of Pentacles reminds you to reassess the opportunity that may come to you related to financial gains and consider every aspect before compromising completely."
     },
     {
@@ -386,7 +392,9 @@ const deck = [
     },
     {
         title: "King of Pentacles",
-        image: Pents14
+        image: Pents14,
+        upward: "The King of Pentacles is a very smart and influential person generally involved in leadership and financial roles being a provider.",
+        downward: "Downward, the King of Pentacles is someone who is not respectful about money and may be involved on the dark side of money in certain aspects."
     },
 ]
 
