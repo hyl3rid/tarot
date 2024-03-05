@@ -40,7 +40,7 @@ function Reveal() {
             <div className="reveal__spreads">
                 {threeCards && (
                         <div className='three-cards__container'>
-                            <h3 className="three-cards__title">Three Cards Spread</h3>
+                            <h2 className="three-cards__title">Three Cards Spread</h2>
                             <div className="three-cards__selected-cards">
                                 <div className="three-cards__card-container">
                                     <img src={renderSelected[1].image} alt={renderSelected[1].title} className={`reveal-image three-cards ${selectedReversed[1] ? 'reversed' : ''}`} />
