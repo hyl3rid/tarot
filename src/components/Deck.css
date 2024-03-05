@@ -1,8 +1,6 @@
 .card {
     height: 144px;
     width: 96px;
-    border: 1px solid #f2f2f2;
-    border-radius: 3px;
   }
   
   .all_cards {
@@ -85,6 +83,8 @@
     height: 100%;
     -webkit-backface-visibility: hidden; /* Safari */
     backface-visibility: hidden;
+    border: 1px solid #f2f2f2;
+    border-radius: 5px;
   }
   
   /* Style the front side (fallback if image is missing) */
