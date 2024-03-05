@@ -17,7 +17,7 @@ function Modal({reveal, timeout, children}) {
               }
             }
         }, [timeout])
-      }, [reveal]);
+      }, [reveal, timeout]);
 
     return (
         <dialog ref={modalRef}>

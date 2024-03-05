@@ -1,4 +1,4 @@
-import { useRef, useState, useEffect } from 'react'
+import { useRef, useState, useEffect, useCallback } from 'react'
 import {Link} from 'react-router-dom'
 import './Deck.css';
 import deck from '../utils/deck.js'
@@ -34,10 +34,10 @@ function Deck({numberOfSelectedCards}) {
     }
   }
 
-    const shuffle = (array) => { 
+    const shuffle = useCallback((array) => { 
         generateFlippedCards()
         return array.sort(() => Math.random() - 0.5); 
-    }; 
+    }, []); 
 
     const generateFlippedCards = () => {
         const arr = [...new Array(78)].map(() => Math.round(Math.random()))
@@ -46,7 +46,7 @@ function Deck({numberOfSelectedCards}) {
     
     useEffect(() => {
         setShuffledDeck(shuffle(deck))
-    }, [])
+    }, [shuffle])
 
     useEffect(() => {
         if (numberOfSelectedCards === 3) {
