@@ -1,6 +1,7 @@
 dialog[open] {
     border: none;
     padding: 50px 80px;
+    max-width: 60%;
 }
 
 dialog[open] a:focus-visible {

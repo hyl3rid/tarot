@@ -78,23 +78,33 @@ import Pents14 from '../assets/images/Pents14.jpg'
 const deck = [
     {
         title: "The Fool",
-        image: Fool
+        image: Fool,
+        upward: "The Fool represents new beginnings, positivism, and a free spirit.",
+        downward: "Downward, the Fool can represent new beginnings but avoid being reckless and careless."
     },
     {
         title: "The Magician",
-        image: Magician
+        image: Magician,
+        upward: "The Magician represents the master of manifestation. You are ready to make your dreams come true as you are now equipped with everything in your power to manifest your desires.",
+        downward: "Downward, the Magician has all in his power to destroy and unmanifest achivements, but not in an evil manner but may just bringe positive change."
     },
     {
         title: "High Priestess",
-        image: HighPriestess
+        image: HighPriestess,
+        upward: "The High Priestess asks you to access you inner wisdom and meditate. Take some time to access this inner knowledge.",
+        downward: "Downward, The High Priestess tells you that you are not aligned with your inner wisdom and not listening. You just need to meditate to access this inner knowledge, so take some time."
     },
     {
         title: "The Empress",
-        image: TheEmpress
+        image: TheEmpress,
+        upward: "The Empress represent motherhood and everything that is encompased such as joys, pleasures and abundance. It represents creation",
+        downward: "Downward, The Empress encourages you to practice self love in every aspect and recognize every effort you put in place to strive on."
     },
     {
         title: "The Emperor",
-        image: TheEmperor
+        image: TheEmperor,
+        upward: "The Emperor represents a father figure which is protective, authority and demands respect from others.",
+        downward: "Downward, The Emperor asks you to assess if you are being a leader or a boss."
     },
     {
         title: "The Hierophant",
@@ -141,43 +151,45 @@ const deck = [
         image: Devil
     },
     {
-        title: "Ace Wands",
+        title: "Ace of Wands",
         image: Wands01
     },
     {
-        title: "Wands II",
+        title: "Two of Wands",
         image: Wands02
     },
     {
-        title: "Wands III",
+        title: "Three of Wands",
         image: Wands03
     },
     {
-        title: "Wands IV",
-        image: Wands04
+        title: "Four of Wands",
+        image: Wands04,
+        upward: "Four of Wands shows stability and it means a milestone has been reached and you may celebrate this achievement",
+        downward: "Downwards, the Four of Wands could indicate that the person is prosperous and happy but fails to recognize it."
     },
     {
-        title: "Wands V",
+        title: "Five of Wands",
         image: Wands05
     },
     {
-        title: "Wands VI",
+        title: "Six of Wands",
         image: Wands06
     },
     {
-        title: "Wands VII",
+        title: "Seven of Wands",
         image: Wands07
     },
     {
-        title: "Wands VIII",
+        title: "Eight of Wands",
         image: Wands08
     },
     {
-        title: "Wands IX",
+        title: "Nine of Wands",
         image: Wands09
     },
     {
-        title: "Wands X",
+        title: "Ten of Wands",
         image: Wands10
     },
     {
@@ -194,7 +206,9 @@ const deck = [
     },
     {
         title: "King of Wands",
-        image: Wands14
+        image: Wands14,
+        upward: "The King of Wands is a very secure, natural born leader in the field of creativity with fiery will, passionate, good hearted but impulsive at times.",
+        downward: "Downward, the King of Wands is a person who is in the position of a leader in the creative field but he is being unjust and aggressive."
     },
     {
         title: "Ace Cups",
@@ -238,7 +252,9 @@ const deck = [
     },
     {
         title: "Page of Cups",
-        image: Cups11
+        image: Cups11,
+        upward: "The Page of Cups invtes you to be open to new oportunities and embrace creativity.",
+        downward: "Downward, the Page of Cups means that the person is emotionally immature. The person also suffers from unrealistics expectations."
     },
     {
         title: "Knight of Cups",
@@ -250,7 +266,9 @@ const deck = [
     },
     {
         title: "King of Cups",
-        image: Cups14
+        image: Cups14,
+        upward: "The King of Cup is a very stable person emotionally that is able to handle a lot of different situations without being emotionally drained.",
+        downward: "Downward, the King of Cup wants to advise you to control your emotions and not let things trigger you emotionally."
     },
     {
         title: "Ace Swords",
@@ -294,7 +312,9 @@ const deck = [
     },
     {
         title: "Page of Swords",
-        image: Swords11
+        image: Swords11,
+        upward: "The Page of Swords is a person who will act swiftly and has a go for it actitude.",
+        downward: "Downward, the Page of Swords may be prone to mistakes due to acting swiftly and without carefull consideration."
     },
     {
         title: "Knight of Swords",
@@ -309,44 +329,48 @@ const deck = [
         image: Swords14
     },
     {
-        title: "Ace Pentacles",
-        image: Pents01
+        title: "Ace of Pentacles",
+        image: Pents01,
+        upward: "Ace of Pentacles wants to inform you that an opportunity for financial gain is possible for your. That you have everything it takes to overcome the challenges this opportunity may bring.",
+        downward: "Downward, the Ace of Pentacles reminds you to reassess the opportunity that may come to you related to financial gains and consider every aspect before compromising completely."
     },
     {
-        title: "Pentacles II",
+        title: "Two of Pentacles",
         image: Pents02
     },
     {
-        title: "Pentacles III",
+        title: "Three of Pentacles",
         image: Pents03
     },
     {
-        title: "Pentacles IV",
+        title: "Four of Pentacles",
         image: Pents04
     },
     {
-        title: "Pentacles V",
+        title: "Five of Pentacles",
         image: Pents05
     },
     {
-        title: "Pentacles VI",
+        title: "Six of Pentacles",
         image: Pents06
     },
     {
-        title: "Pentacles VII",
+        title: "Seven of Pentacles",
         image: Pents07
     },
     {
-        title: "Pentacles VIII",
+        title: "Eight of Pentacles",
         image: Pents08
     },
     {
-        title: "Pentacles IX",
+        title: "Nine of Pentacles",
         image: Pents09
     },
     {
-        title: "Pentacles X",
-        image: Pents10
+        title: "Ten of Pentacles",
+        image: Pents10,
+        upward: "The Ten of Pentacles wants to bring to your attention that you have achieve the pinnacle of success. With your hard work you've obtain wealth and family members.",
+        downward: "Downward, the Ten of Pentacles wants to let you know that there are finalcial and family challenges lurking around."
     },
     {
         title: "Page of Pentacles",

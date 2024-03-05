@@ -13,18 +13,25 @@ function Reveal() {
     const [reveal, setReveal] = useState(false)
     const [image, setImage] = useState("")
     const [title, setTitle] = useState("")
+    const [upwardMeaning, setUpwardMeaning] = useState("")
+    const [downwardMeaning, setDownwardMeaning] = useState("")
     const [position, setPosition] = useState("")
     const [description, setDescription] = useState("")
     const [reversed, setReversed] = useState("")
     
-    const revealModal = (image, title, reversed, position, description) => {
+    const revealModal = (image, title, reversed, position, description, upward, downward) => {
         setImage(image)
         setTitle(title)
         setPosition(position)
         setReveal(true)
         setReversed(reversed)
         setDescription(description)
+        setUpwardMeaning(upward)
+        setDownwardMeaning(downward)
     }
+    console.log(upwardMeaning)
+    console.log(downwardMeaning)
+    console.log(reversed)
 
     const hideModal = () => {
         setReveal(false)
@@ -67,61 +74,138 @@ function Reveal() {
                             src={renderSelected[0].image} 
                             alt={renderSelected[0].title} 
                             className={`reveal-image celtic-cross__card situation ${selectedReversed[0] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[0].image, renderSelected[0].title, selectedReversed[0], "Situation", "Overall situation on why the querent consults the Tarot.")}
+                            onClick={() => revealModal(
+                                renderSelected[0].image, 
+                                renderSelected[0].title, 
+                                selectedReversed[0], 
+                                "Situation", 
+                                "Overall situation on why the querent consults the Tarot.", 
+                                renderSelected[0].upward, 
+                                renderSelected[0].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[1].image} 
                             alt={renderSelected[1].title} 
                             className={`reveal-image celtic-cross__card cross-purpose ${selectedReversed[1] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[1].image, renderSelected[1].title, selectedReversed[1], "Cross Purpose", "Current factors that play against the querent to fulfill his goal.")}
+                            onClick={() => revealModal(
+                                renderSelected[1].image, 
+                                renderSelected[1].title, 
+                                selectedReversed[1], 
+                                "Cross Purpose", 
+                                "Current factors that play against the querent to fulfill his goal.",
+                                renderSelected[1].upward, 
+                                renderSelected[1].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[2].image} 
                             alt={renderSelected[2].title} 
                             className={`reveal-image celtic-cross__card foundation ${selectedReversed[2] ? 'reversed' : ''}`} 
-                            onClick={() => revealModal(renderSelected[2].image, renderSelected[2].title, selectedReversed[2], "Foundation", "Past experiences that keep the querent from reaching his goals")}
+                            onClick={() => revealModal(
+                                renderSelected[2].image, 
+                                renderSelected[2].title, 
+                                selectedReversed[2], 
+                                "Foundation", 
+                                "Past experiences that keep the querent from reaching his goals",
+                                renderSelected[2].upward, 
+                                renderSelected[2].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[3].image} 
                             alt={renderSelected[3].title} 
                             className={`reveal-image celtic-cross__card past-influences ${selectedReversed[3] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[3].image, renderSelected[3].title, selectedReversed[3], "Past Influences")}
+                            onClick={() => revealModal(
+                                renderSelected[3].image, 
+                                renderSelected[3].title, 
+                                selectedReversed[3], 
+                                "Past Influences",
+                                renderSelected[3].upward, 
+                                renderSelected[3].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[4].image} 
                             alt={renderSelected[4].title} 
                             className={`reveal-image celtic-cross__card future ${selectedReversed[4] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[4].image, renderSelected[4].title, selectedReversed[4], "Possible Future")}
+                            onClick={() => revealModal(
+                                renderSelected[4].image, 
+                                renderSelected[4].title, 
+                                selectedReversed[4], 
+                                "Possible Future",
+                                renderSelected[4].upward, 
+                                renderSelected[4].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[5].image} 
                             alt={renderSelected[5].title} 
                             className={`reveal-image celtic-cross__card past ${selectedReversed[5] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[5].image, renderSelected[5].title, selectedReversed[5], "Past")}
+                            onClick={() => revealModal(
+                                renderSelected[5].image, 
+                                renderSelected[5].title, 
+                                selectedReversed[5], 
+                                "Past",
+                                renderSelected[5].upward, 
+                                renderSelected[5].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[6].image} 
                             alt={renderSelected[6].title} 
                             className={`reveal-image celtic-cross__card self ${selectedReversed[6] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[6].image, renderSelected[6].title, selectedReversed[6], "Self", "How the querent feels about himself.")}
+                            onClick={() => revealModal(
+                                renderSelected[6].image, 
+                                renderSelected[6].title, 
+                                selectedReversed[6], 
+                                "Self", 
+                                "How the querent feels about himself.",
+                                renderSelected[6].upward, 
+                                renderSelected[6].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[7].image} 
                             alt={renderSelected[7].title} 
                             className={`reveal-image celtic-cross__card environment ${selectedReversed[7] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[7].image, renderSelected[7].title, selectedReversed[7], "Environment", "External factors such as society, family and friends.")}
+                            onClick={() => revealModal(
+                                renderSelected[7].image, 
+                                renderSelected[7].title, 
+                                selectedReversed[7], 
+                                "Environment", 
+                                "External factors such as society, family and friends.",
+                                renderSelected[7].upward, 
+                                renderSelected[7].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[8].image} 
                             alt={renderSelected[8].title} 
                             className={`reveal-image celtic-cross__card hopes-fears ${selectedReversed[8] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[8].image, renderSelected[8].title, selectedReversed[8], "Hopes and Fears", "Express how the querent wishes the situation to end or ideas the hold the querent back.")}
+                            onClick={() => revealModal(
+                                renderSelected[8].image, 
+                                renderSelected[8].title, 
+                                selectedReversed[8], 
+                                "Hopes and Fears", 
+                                "Expresses how the querent hopes for the situation to be or ideas that hold the querent back.",
+                                renderSelected[8].upward, 
+                                renderSelected[8].downward
+                            )}
                         />
                         <img 
                             src={renderSelected[9].image} 
                             alt={renderSelected[9].title} 
                             className={`reveal-image celtic-cross__card outcome ${selectedReversed[9] ? 'reversed' : ''}`}
-                            onClick={() => revealModal(renderSelected[9].image, renderSelected[9].title, selectedReversed[9], "Outcome", "The result of all the circumstances.")}
+                            onClick={() => revealModal(
+                                renderSelected[9].image, 
+                                renderSelected[9].title, 
+                                selectedReversed[9], 
+                                "Outcome", 
+                                "The result of all the circumstances.",
+                                renderSelected[9].upward, 
+                                renderSelected[9].downward
+                            )}
                         />
                     </div>
                     <Link to={`/`} className="reveal__return-home"><Button>Return Home</Button></Link>
@@ -135,8 +219,9 @@ function Reveal() {
                     <h2 className="reveal__modal-title">{title}</h2>
                     <h3>{position}</h3>
                     {description && (
-                        <p>{description}</p>
+                        <p className="reveal__modal-description">{description}</p>
                     )}
+                    <p>Card Meaning: {reversed ? downwardMeaning : upwardMeaning}</p>
                 </div>
             </Modal>
         </section>

@@ -20,7 +20,7 @@ function Home() {
             <div className="home__main-app">
                 <SVGLogo />
                 <h1>Tarot Realms</h1>
-                <p>This is a website where you can play different kinds of tarot spreads known.</p>
+                <p className="home__main-paragraph">This is a website where you can play different kinds of tarot spreads known.</p>
                 <div onClick={revealModal}>
                     <Button>Play</Button>
                 </div>
