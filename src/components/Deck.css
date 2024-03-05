@@ -1,107 +1,108 @@
 .card {
-    height: 144px;
-    width: 96px;
-  }
+  height: 144px;
+  width: 96px;
+}
   
+.all_cards {
+  padding: 100px 0;
+  width: 60vw;
+  display: grid;
+  grid-template-columns: repeat(auto-fit,  minmax(35px, max-content));
+  row-gap: 5px;
+}
+
+.deck__container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.deck__title {
+  margin-top: 100px;
+}
+
+.deck__return-home {
+  margin-bottom: 50px;
+}
+
+.reversed {
+  transform: scaleY(-1);
+}
+
+@media (max-width: 1024px) {
   .all_cards {
-    padding: 100px 0;
-    width: 60vw;
-    display: grid;
-    grid-template-columns: repeat(auto-fit,  minmax(35px, max-content));
+    padding: 50px 0;
+    width: 100%;
+    height: 100%;
     row-gap: 5px;
+    grid-template-columns: repeat(auto-fill, minmax(25px, min-content));
+    overflow: hidden;
   }
 
   .deck__container {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    width: 80%;
   }
-
-  .deck__title {
-    margin-top: 100px;
-  }
-
-  .deck__return-home {
-    margin-bottom: 50px;
-  }
-
-  .reversed {
-    transform: scaleY(-1);
-  }
-
-  @media (max-width: 1024px) {
-    .all_cards {
-      padding: 50px 0;
-      width: 100%;
-      height: 100%;
-      row-gap: 5px;
-      grid-template-columns: repeat(auto-fill, minmax(25px, min-content));
-      overflow: hidden;
-    }
-
-    .deck__container {
-      width: 80%;
-    }
-  }
+}
   
   
+@media (hover: hover) {
   .total_card:hover {
-    z-index: 100;
+      z-index: 100;
   }
+}
   
   
   
   
-  
-   /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
-   .flip-card {
-    background-color: transparent;
-    height: 144px;
-    width: 96px;
-    perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  }
-  
-  /* This container is needed to position the front and back side */
-  .flip-card-inner {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    text-align: center;
-    transition: transform 0.8s;
-    transform-style: preserve-3d;
-  }
-  
-  /* Do an horizontal flip when you move the mouse over the flip box container */
-  .flip-card-clicked .flip-card-inner {
-    transform: rotateY(180deg);
-  }
-  
-  /* Position the front and back side */
-  .flip-card-front, .flip-card-back {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    -webkit-backface-visibility: hidden; /* Safari */
-    backface-visibility: hidden;
-    border: 1px solid #f2f2f2;
-    border-radius: 5px;
-  }
-  
-  /* Style the front side (fallback if image is missing) */
-  .flip-card-front {
-    background-color: #bbb;
-    color: black;
-  }
-  
-  /* Style the back side */
-  .flip-card-back {
-    background-color: teal;
-    color: white;
-    transform: rotateY(180deg);
-  } 
-  
-  .flip-card-back:hover {
-    background-color: #23c433;;
-    color: white;
-    transform: rotateY(180deg);
-  } 
+  /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card {
+  background-color: transparent;
+  height: 144px;
+  width: 96px;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card-clicked .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front, .flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+  border: 1px solid #f2f2f2;
+  border-radius: 5px;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  background-color: #bbb;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back {
+  background-color: teal;
+  color: white;
+  transform: rotateY(180deg);
+} 
+
+.flip-card-back:hover {
+  background-color: #23c433;;
+  color: white;
+  transform: rotateY(180deg);
+} 
