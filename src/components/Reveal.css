@@ -18,9 +18,13 @@
     width: 96px;
 }
 
+.reveal-image:hover {
+    z-index: 100;
+}
+
 @media (hover: hover) {
     .reveal-image:hover {
-        z-index: 100;
+        z-index: 0;
     }
 }
 
