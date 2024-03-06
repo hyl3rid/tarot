@@ -54,9 +54,7 @@ function Reveal() {
         setRenderSelected(cardsSelected.map((card) => {
             return shuffledDeck[card]
         }));
-    }, [cardsSelected, cardsSelected ])
-
-    console.log('hi', renderSelected, shuffledDeck, cardsSelected)
+    }, [cardsSelected , shuffledDeck])
     
     return (
         <section className="reveal">
