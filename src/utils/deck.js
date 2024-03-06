@@ -196,7 +196,9 @@ const deck = [
     },
     {
         title: "Nine of Wands",
-        image: Wands09
+        image: Wands09,
+        upward: "The Nine of Wands represents a character who has had a lot of fights and is wounded but is not willing to give anything up. But you want this fight to be endless?.",
+        downward: "Downward, the Nine of Wands indicates that the character has fought until exhaustion and is no longer able to protect what he considered his own."
     },
     {
         title: "Ten of Wands",
@@ -258,11 +260,15 @@ const deck = [
     },
     {
         title: "Nine of Cups",
-        image: Cups09
+        image: Cups09,
+        upward: "The Nine of Cups is an indication that your wish has come true and you have material success.",
+        downward: "Downward, its possible that your wish may have come true but still you find it unfulfilling or the wish has not come true yet."
     },
     {
         title: "Ten of Cups",
-        image: Cups10
+        image: Cups10,
+        upward: "The Ten of Cups is an indication that the querent has very strong and happy relationships. Celebrate and enjoy what you have worked so hard for.",
+        downward: "Downward, the Ten of Cups indicates that there are disagreements in his relationships making it a bit difficult, but it doesn't mean it will always be like this."
     },
     {
         title: "Page of Cups",
@@ -378,7 +384,9 @@ const deck = [
     },
     {
         title: "Eight of Pentacles",
-        image: Pents08
+        image: Pents08,
+        upward: "The Eight of Pentacles is a confirmation of hard work, learning and attention to detail has used in the current situation.",
+        downward: "Downward, the Eight of Pentacles means not reaping rewards from your work but could if more hard work is done."
     },
     {
         title: "Nine of Pentacles",

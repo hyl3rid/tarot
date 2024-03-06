@@ -1,5 +1,5 @@
 import './Board.css'
-import Deck from './Deck.jsx'
+import Deck from './Deck.jsx';
 import { useState, useEffect } from 'react'
 import { useLocation } from "react-router-dom";
 

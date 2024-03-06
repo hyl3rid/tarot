@@ -1,21 +1,21 @@
-import { useRef, useState, useEffect, useCallback } from 'react'
-import {Link} from 'react-router-dom'
+import { useRef, useState, useEffect, useCallback, useContext } from 'react'
+import { Link } from 'react-router-dom'
 import './Deck.css';
 import deck from '../utils/deck.js'
 import Modal from './Modal.jsx'
 import Button from './Button.jsx'
-
+import { CardContext, CardDispatchContext } from "../context/CardsProvider.jsx";
 
 function Deck({numberOfSelectedCards}) {
   const flipCardRef = useRef([]);
 
-  const [cardsSelected, setCardsSelected] = useState([])
+  const {shuffledDeck, cardsSelected, selectedReversed} = useContext(CardContext);
+  const {setShuffledDeck, setCardsSelected, setSelectedReversed} = useContext(CardDispatchContext);
+
   const [reveal, setReveal] = useState(false)
   const [threeCards, setThreeCards] = useState(false)
   const [celticCross, setCelticCross] = useState(false)
-  const [shuffledDeck, setShuffledDeck] = useState([])
   const [reversed, setReversed] = useState([])
-  const [selectedReversed, setSelectedReversed] = useState([])
 
   const flipCard = (index, isReversed) => {
     if (cardsSelected.length < numberOfSelectedCards) {
@@ -36,7 +36,8 @@ function Deck({numberOfSelectedCards}) {
 
     const shuffle = useCallback((array) => { 
         generateFlippedCards()
-        return array.sort(() => Math.random() - 0.5); 
+        const shuffled = array.sort(() => Math.random() - 0.5)
+        return shuffled; 
     }, []); 
 
     const generateFlippedCards = () => {
@@ -46,7 +47,7 @@ function Deck({numberOfSelectedCards}) {
     
     useEffect(() => {
         setShuffledDeck(shuffle(deck))
-    }, [shuffle])
+    }, [shuffle, setShuffledDeck])
 
     useEffect(() => {
         if (numberOfSelectedCards === 3) {
@@ -55,6 +56,12 @@ function Deck({numberOfSelectedCards}) {
             setCelticCross(true)
         }
     }, [numberOfSelectedCards, setThreeCards])
+
+    useEffect(() => {
+        localStorage.setItem('shuffledDeck', JSON.stringify(shuffledDeck));
+        localStorage.setItem('cardsSelected', JSON.stringify(cardsSelected));
+        localStorage.setItem('selectedReversed', JSON.stringify(selectedReversed));
+    }, [shuffledDeck, cardsSelected, selectedReversed])
 
   return (
     <div className="deck__container">
@@ -74,7 +81,6 @@ function Deck({numberOfSelectedCards}) {
                     </div>
                 )
             })}
-
 
             <Modal reveal={reveal} timeout={2500}>
                 <p>You selected all the required cards. Let's continue to reveal the meaning!</p>

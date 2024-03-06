@@ -1,14 +1,17 @@
 
 import { useLocation, Link } from "react-router-dom";
-import { useState } from "react"
+import { useState, useEffect, useContext } from "react"
 import './Reveal.css'
-import deck from '../utils/deck.js'
 import Button from './Button'
 import Modal from './Modal'
+import { CardContext, CardDispatchContext } from "../context/CardsProvider.jsx";
 
 function Reveal() {
     const location = useLocation();
-    const { cardsSelected, threeCards, celticCross, selectedReversed } = location.state;
+    let { threeCards, celticCross } = location.state;
+
+    const {shuffledDeck, cardsSelected, selectedReversed} = useContext(CardContext);
+    const {setShuffledDeck, setCardsSelected, setSelectedReversed} = useContext(CardDispatchContext);
 
     const [reveal, setReveal] = useState(false)
     const [image, setImage] = useState("")
@@ -18,6 +21,7 @@ function Reveal() {
     const [position, setPosition] = useState("")
     const [description, setDescription] = useState("")
     const [reversed, setReversed] = useState("")
+    const [renderSelected, setRenderSelected] = useState([])
     
     const revealModal = (image, title, reversed, position, description, upward, downward) => {
         setImage(image)
@@ -29,19 +33,31 @@ function Reveal() {
         setUpwardMeaning(upward)
         setDownwardMeaning(downward)
     }
-    console.log(upwardMeaning)
-    console.log(downwardMeaning)
-    console.log(reversed)
 
     const hideModal = () => {
         setReveal(false)
-    }
+    } 
+    
+    useEffect(() => {
+        const shuffled = JSON.parse(localStorage.getItem('shuffledDeck'));
+        const cards = JSON.parse(localStorage.getItem('cardsSelected'));
+        const selected = JSON.parse(localStorage.getItem('selectedReversed'));
+        if (shuffled && cards && selected) {
+            setShuffledDeck(shuffled)
+            setCardsSelected(cards)
+            setSelectedReversed(selected)
+        }
 
+    }, [ setCardsSelected, setSelectedReversed, setShuffledDeck ]);
 
-    const renderSelected = cardsSelected.map((card) => {
-        return deck[card]
-    });
+    useEffect(() => {
+        setRenderSelected(cardsSelected.map((card) => {
+            return shuffledDeck[card]
+        }));
+    }, [cardsSelected, cardsSelected ])
 
+    console.log('hi', renderSelected, shuffledDeck, cardsSelected)
+    
     return (
         <section className="reveal">
             <div className="reveal__spreads">
@@ -66,7 +82,7 @@ function Reveal() {
                         </div>
                     )}
                     
-                {celticCross && 
+                {celticCross && renderSelected.length > 0 &&
                 <div className="celtic-cross">
                     <h2 className="celtic-cross__title">Celtic Cross</h2>
                     <div className="celtic-cross__container">
