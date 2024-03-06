@@ -116,7 +116,9 @@ const deck = [
     },
     {
         title: "The Chariot",
-        image: Chariot
+        image: Chariot,
+        upward: "The Chariot tells the querent that he is on the path to victory. With firm and bold decision making success will come true.",
+        downward: "Downward, The Chariot tells the querent that victory is not set for him to happen and that another approach should be taken to the current situation."
     },
     {
         title: "Strength",
@@ -136,7 +138,9 @@ const deck = [
     },
     {
         title: "The Hanged Man",
-        image: HangedMan
+        image: HangedMan,
+        upward: "The Hanged man reminds us that even thought others do no agree with you, you need to hang on and believe in yourself.",
+        downward: "Downward, The Hanged Man reminds the querent that even if more believe something, it doesn't mean they are right."
     },
     {
         title: "Death",
@@ -156,11 +160,15 @@ const deck = [
     },
     {
         title: "Two of Wands",
-        image: Wands02
+        image: Wands02,
+        upward: "The Two of Wands brings to the querents attention the desire to explore new horizons and venture into new ways.",
+        downward: "Downward, the Two of Wands suggests that the querent is not seeing the progress he expects. Yet take time to explore your options and make a fitting plan."
     },
     {
         title: "Three of Wands",
-        image: Wands03
+        image: Wands03,
+        upward: "",
+        downward: ""
     },
     {
         title: "Four of Wands",
@@ -204,7 +212,9 @@ const deck = [
     },
     {
         title: "Queen of Wands",
-        image: Wands13
+        image: Wands13,
+        upward: "The Queen of Wands is attractive, spontaneous, versatile, energetic and grounded women ready for the pursuit of creativity.",
+        downward: "Downward, the Queen of Wands may indicate you that you are lacking confidence in yourself and should strive to build it up."
     },
     {
         title: "King of Wands",
@@ -243,7 +253,7 @@ const deck = [
     {
         title: "Eight of Cups",
         image: Cups08,
-        upward: "The Eight of Cups brings to attention that the querent has put good effort on certain aspect of his life but resulted unfulfilling thus leave the project behind.",
+        upward: "The Eight of Cups brings to attention that the querent has put good effort on certain aspect of his life but resulted unfulfilling thus leaving the project behind.",
         downward: "Downward, the Eight of Cups reminds you that you are drifting aimlessly. It may be time to find a place to stay for a while."
     },
     {
@@ -262,7 +272,9 @@ const deck = [
     },
     {
         title: "Knight of Cups",
-        image: Cups12
+        image: Cups12,
+        upward: "The Knight of Cups of very creative, intelligent, charismatic, emotional person with a humanitarian mission.",
+        downward: "Downward, the Knight of Cups might be overreactive or out of touch with reality. Might be prone to acts of jelousy."
     },
     {
         title: "Queen of Cups",
