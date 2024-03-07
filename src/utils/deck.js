@@ -14,6 +14,12 @@ import HangedMan from '../assets/images/Hanged_Man.jpg'
 import Death from '../assets/images/Death.jpg'
 import Temperance from '../assets/images/Temperance.jpg'
 import Devil from '../assets/images/Devil.jpg'
+import Tower from '../assets/images/Tower.jpg'
+import Star from '../assets/images/Star.jpg'
+import Moon from '../assets/images/Moon.jpg'
+import Sun from '../assets/images/Sun.jpg'
+import Judgement from '../assets/images/Judgement.jpg'
+import World from '../assets/images/World.jpg'
 
 import Wands01 from '../assets/images/Wands01.jpg'
 import Wands02 from '../assets/images/Wands02.jpg'
@@ -128,19 +134,25 @@ const deck = [
         title: "Strength",
         image: Strength,
         upward: "Strength reminds us that force is not required to do one's will, compassion and patience may just be stronger and more effective.",
-        downward: "Downward, Strength reminds us to not use force and use compassion, patience, fortitude instead as it will be more effective. "
+        downward: "Downward, Strength reminds us to not use force and use compassion, patience, fortitude instead as it will be more effective and not be overwhelmed. "
     },
     {
         title: "The Hermit",
-        image: Hermit
+        image: Hermit,
+        upward: "The Hermit is a guide who has taken the path of solitude and has reached enlightment throught it. Consider his advice accurate as he knows from within and is very spiritual.",
+        downward: "Downward, The Hermit indicates that there is a lack of progress spiritually either by isolating too much or not spending enought time in meditation."
     },
     {
-        title: "The Wheel Of Fortune",
-        image: WheelOfFortune
+        title: "The Wheel of Fortune",
+        image: WheelOfFortune,
+        upward: "The Wheel of Fortune is a positive omen that you are in flow with the laws of the universe. It reminds us that change is the only constant.",
+        downward: "Downward, The Wheel of Fortune indicates that even if things are going well, the current direction of the querent is not aligned with the highest purpose."
     },
     {
         title: "Justice",
-        image: Justice
+        image: Justice,
+        upward: "Justice will bring into account your actions and it will be judged fairly without bias. This card generally involves legal matters or external factors than the querent.",
+        downward: "Downward, Justice wants to bring to the querents attention that the final decision on the subject in matter will feel unfair and rought."
     },
     {
         title: "The Hanged Man",
@@ -150,15 +162,57 @@ const deck = [
     },
     {
         title: "Death",
-        image: Death
+        image: Death,
+        upward: "Death is not physical but more related to phases in life where you experience transformations and enter into new beginnings.",
+        downward: "Downward, Death means that there is a blockage on the querent and it is not letting go of what was even though a new phase is arriving."
     },
     {
         title: "Temperance",
-        image: Temperance
+        image: Temperance,
+        upward: "Temperance asks the querent to embrace balance and look for way to access different levels of conciousness.",
+        downward: "Downward, Temperance is a clear sign that there is imbalance in the querents situation and careful measures should be taken to address the issue.",
     },
     {
         title: "The Devil",
-        image: Devil
+        image: Devil,
+        upward: "The Devil is an omen that the querent is being affected by negativity in any form, could be temptations, your dark side and anything that keeps you from being the best version.",
+        downward: "Downward, The Devil is an omen that a negative cycle has been released and the querent has come to realization of a new paradigms."
+    },
+    {
+        title: "The Tower",
+        image: Tower,
+        upward: "The Tower is an omen that the unexpected will happen and there will be upheavel and confusion but it is because the foundations are not solid.",
+        downward: "Downward, The Tower is an omen that the querent will continue on the same path as before even after there has been upheavel and destruction."
+    },
+    {
+        title: "The Star",
+        image: Star,
+        upward: "The Star is telling the reminding the querent about hope and optimism, that things will turn out right even if the situation has been difficult to navigate.",
+        downward: "Downward, The Star means that the querent can be more optimistic and that hope has been lost. If things are tought right now, be sure there are reasons for which to be optimistic"
+    },
+    {
+        title: "The Moon",
+        image: Moon,
+        upward: "The Moon represents that mystery and the unknown of the universe is affecting how we perceive events and that intuition and careful decision making should be taken.",
+        downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown or misunderstood causes. Try to be extremely cautious about the decisions taken and follow your own intuition."
+    },
+    {
+        title: "The Sun",
+        image: Sun,
+        upward: "",
+        downward: ""
+    },
+    {
+        title: "Judgement",
+        image: Judgement,
+        upward: "",
+        downward: ""
+    },
+    {
+        title: "The World",
+        image: World,
+        upward: "",
+        downward: ""
     },
     {
         title: "Ace of Wands",
@@ -231,8 +285,10 @@ const deck = [
         downward: "Downward, the King of Wands is a person who is in the position of a leader in the creative field but he is being unjust and aggressive."
     },
     {
-        title: "Ace Cups",
-        image: Cups01
+        title: "Ace of Cups",
+        image: Cups01,
+        upward: "The Ace of Cups is the beginning of prosperity, health, love, joy for the querent. There is a creative force in this card and the appearance of this card is an invitation to create.",
+        downward: "Downward, the Ace of Cup is reminding us that for success its necessary to put your heart into the right place. Reconsider the reasons on why there is a blockage in creativity."
     },
     {
         title: "Two of Cups",
@@ -273,7 +329,7 @@ const deck = [
     {
         title: "Nine of Cups",
         image: Cups09,
-        upward: "The Nine of Cups is an indication that your wish has come true and you have material success.",
+        upward: "The Nine of Cups is an indication that your wish has come true and you have material success. But is there more?",
         downward: "Downward, its possible that your wish may have come true but still you find it unfulfilling or the wish has not come true yet."
     },
     {
@@ -307,7 +363,7 @@ const deck = [
         downward: "Downward, the King of Cup wants to advise you to control your emotions and not let things trigger you emotionally."
     },
     {
-        title: "Ace Swords",
+        title: "Ace of Swords",
         image: Swords01
     },
     {
