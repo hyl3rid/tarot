@@ -104,7 +104,7 @@ const deck = [
         title: "The Emperor",
         image: TheEmperor,
         upward: "The Emperor represents a father figure which is protective, authoritative and demands respect from others.",
-        downward: "Downward, The Emperor asks you to assess if you are being a leader or a boss."
+        downward: "Downward, The Emperor asks you to assess if you are being a leader or a boss and your approach to leadership."
     },
     {
         title: "The Hierophant",
@@ -114,17 +114,21 @@ const deck = [
     },
     {
         title: "The Lovers",
-        image: TheLovers
+        image: TheLovers,
+        upward: "The Lovers is about the right choice, about loving, and doing what is ethically correct to finally not fall into temptation." ,
+        downward: "Downward, The Lovers indicates that the querent should be very careful about his choices and not fall into temptation as it may be regretted greatfully."
     },
     {
         title: "The Chariot",
         image: Chariot,
         upward: "The Chariot tells the querent that he is on the path to victory. With firm and bold decision making success will come true.",
-        downward: "Downward, The Chariot tells the querent that victory is not set for him to happen and that another approach should be taken to the current situation."
+        downward: "Downward, The Chariot tells the querent that victory is not set for the querent to happen and that another approach should be taken to the current situation."
     },
     {
         title: "Strength",
-        image: Strength
+        image: Strength,
+        upward: "Strength reminds us that force is not required to do one's will, compassion and patience may just be stronger and more effective.",
+        downward: "Downward, Strength reminds us to not use force and use compassion, patience, fortitude instead as it will be more effective. "
     },
     {
         title: "The Hermit",
