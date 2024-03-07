@@ -103,12 +103,14 @@ const deck = [
     {
         title: "The Emperor",
         image: TheEmperor,
-        upward: "The Emperor represents a father figure which is protective, authority and demands respect from others.",
+        upward: "The Emperor represents a father figure which is protective, authoritative and demands respect from others.",
         downward: "Downward, The Emperor asks you to assess if you are being a leader or a boss."
     },
     {
         title: "The Hierophant",
-        image: Hierophant
+        image: Hierophant,
+        upward: "The Hierophant represent the norm, traditional and what is stablished. It conforms to the status quo and follows it. Generally related to institutions such as the orthodox church.",
+        downward: "Downward, it reminds us about free and bohemian lifestyles which don't follow the norm or what is expected and in some cases very independent from the standards of society."
     },
     {
         title: "The Lovers",
@@ -230,7 +232,9 @@ const deck = [
     },
     {
         title: "Two of Cups",
-        image: Cups02
+        image: Cups02,
+        upward: "The Two of Cups is an indication of emotional compatibility and strong bonds. It could represent a job, relationship or a friendship.",
+        downward: "Downward, the Two of Cups asks us to work any misunderstandings as they may just be temporary but could affect your bonds either at work, socially or in love."
     },
     {
         title: "Three of Cups",
@@ -238,7 +242,9 @@ const deck = [
     },
     {
         title: "Four of Cups",
-        image: Cups04
+        image: Cups04,
+        upward: "The Four of Cups reminds us of times when it is necessary to reevaluate your current circumstances and introspect within you.",
+        downward: "Downward, the Four of Cups indicates that the querent is withdrawing and instead should be engaged with society."
     },
     {
         title: "Five of Cups",
@@ -250,7 +256,9 @@ const deck = [
     },
     {
         title: "Seven of Cups",
-        image: Cups07
+        image: Cups07,
+        upward: "The Seven of Cups depics wishful thinking and having many options but consider them carefully as they may not appear what they are at first.",
+        downward: "Downward, the Seven of Cups tells that the correct decision has been made even amongst all the options that were available."
     },
     {
         title: "Eight of Cups",
@@ -284,7 +292,9 @@ const deck = [
     },
     {
         title: "Queen of Cups",
-        image: Cups13
+        image: Cups13,
+        upward: "The Queen of Cups is someone who is in touch with their intution, very caring, emotionally stable and considered to be very special.",
+        downward: "Downward, the Queen of Cups indicates there is an energy of manipulation on the air and you should be careful of others agendas."
     },
     {
         title: "King of Cups",
@@ -318,11 +328,15 @@ const deck = [
     },
     {
         title: "Seven of Swords",
-        image: Swords07
+        image: Swords07,
+        upward: "The Seven of Swords reminds the querent that there is deception and betrayal in the current situation at hand.",
+        downward: "Downward, the Seven of Swords indicates that the betrayer will fail at his attempt of causing harm and will be caught."
     },
     {
         title: "Eight of Swords",
-        image: Swords08
+        image: Swords08,
+        upward: "The Eight of Swords reminds us that even when we feel trapped, if we consider our options, there might be an alternative.",
+        downward: "Downward, the Eight of Swords indicates that the current situation has been solved and there no longer a feeling of being hold down."
     },
     {
         title: "Nine of Swords",
@@ -335,7 +349,7 @@ const deck = [
     {
         title: "Page of Swords",
         image: Swords11,
-        upward: "The Page of Swords is a person who will act swiftly and has a go for it actitude.",
+        upward: "The Page of Swords is a person who is intellectual and diplomatic yet may will act swiftly and has a go for it actitude.",
         downward: "Downward, the Page of Swords may be prone to mistakes due to acting swiftly and without carefull consideration."
     },
     {
@@ -380,17 +394,21 @@ const deck = [
     },
     {
         title: "Seven of Pentacles",
-        image: Pents07
+        image: Pents07,
+        upward: "The Seven of Pentacles highlights that hard word, dedication and patience has now spawn the fruits of labor and that you should reap its rewards.",
+        downward: "Downward, the Seven of Pentacles highlights that hard word, dedication and patience are not bearing its fruits as expected and this is taking its toll."
     },
     {
         title: "Eight of Pentacles",
         image: Pents08,
-        upward: "The Eight of Pentacles is a confirmation of hard work, learning and attention to detail has used in the current situation.",
+        upward: "The Eight of Pentacles is a confirmation of hard work, learning and attention to detail has been invested in the current situation.",
         downward: "Downward, the Eight of Pentacles means not reaping rewards from your work but could if more hard work is done."
     },
     {
         title: "Nine of Pentacles",
-        image: Pents09
+        image: Pents09,
+        upward: "The Nine of Pentacles pertains to finalcial success and independence. Feel free to enjoy luxuries, time off and other benefits you may have.",
+        downward: "Downward, the Nine of Pentacles can indicate one is not satisfied with the status quo even after you have achieved a lot at this stage."
     },
     {
         title: "Ten of Pentacles",
