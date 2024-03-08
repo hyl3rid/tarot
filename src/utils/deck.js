@@ -409,14 +409,14 @@ const deck = [
     {
         title: "Five of Swords",
         image: Swords05,
-        upward: "",
-        downward: ""
+        upward: "The Five of Swords appears in times when you had a disagreement or argument but ended up losing more even if you appear to have the advantage.",
+        downward: "Downward, the Five of Swords will indicates loss of a disagreement even if you were correct and that you have been taken advantage off. "
     },
     {
         title: "Six of Swords",
         image: Swords06,
-        upward: "",
-        downward: ""
+        upward: "The Six of Swords appears when it is time to move on in hope for the better. Note that there are still burdens which are carried by the querent which must be resolved to continue.",
+        downward: "Downward, the Six of Swords indication stagnation are the current stage in life and not being able to move on. You'll need to use everything at your disposicion to move on."
     },
     {
         title: "Seven of Swords",
