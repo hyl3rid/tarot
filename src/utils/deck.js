@@ -384,27 +384,39 @@ const deck = [
     },
     {
         title: "Ace of Swords",
-        image: Swords01
+        image: Swords01,
+        upward: "The Ace of Swords is a sign that a new intellectual endeavor is emerging and is at the beginning stages. It is a positive message of great deeds to come.",
+        downward: "Downward, the Ace of Swords lets us know that a new intellectual endeavor will require a the querent to be very careful with his choices."
     },
     {
         title: "Two of Swords",
-        image: Swords02
+        image: Swords02,
+        upward: "The Two of Swords is a sign of difficult decisions and the querent must weight based on logic and reason. Find all the evidence and based on that make your decision.",
+        downward: "Downward, the Two of Sword is a sign of difficult decisions and the careful decision making must be follow with risk managing as the decision may not turn out as expected."
     },
     {
         title: "Three of Swords",
-        image: Swords03
+        image: Swords03,
+        upward: "The Three of Swords is a sign a emotional hurt and resentment. In some cases triggers happen and they may be a source of emotional pain.",
+        downward: "Downward, the Three of Swords is a reminder to make amends with the past even if it hurts. This will allow the querent to move on to the next phase."
     },
     {
         title: "Four of Swords",
-        image: Swords04
+        image: Swords04,
+        upward: "The Four of Swords is an omen that the querent needs to rest to take time to recover from stress to prepare for what is to come.",
+        downward: "Downward, the Four of Swords means being burnout and completely stressed. That you need to take a break seriously since its taking a toll on your health because of stress."
     },
     {
         title: "Five of Swords",
-        image: Swords05
+        image: Swords05,
+        upward: "",
+        downward: ""
     },
     {
         title: "Six of Swords",
-        image: Swords06
+        image: Swords06,
+        upward: "",
+        downward: ""
     },
     {
         title: "Seven of Swords",
@@ -420,11 +432,15 @@ const deck = [
     },
     {
         title: "Nine of Swords",
-        image: Swords09
+        image: Swords09,
+        upward: "",
+        downward: ""
     },
     {
         title: "Ten of Swords",
-        image: Swords10
+        image: Swords10,
+        upward: "",
+        downward: ""
     },
     {
         title: "Page of Swords",
@@ -434,11 +450,15 @@ const deck = [
     },
     {
         title: "Knight of Swords",
-        image: Swords12
+        image: Swords12,
+        upward: "",
+        downward: ""
     },
     {
         title: "Queen of Swords",
-        image: Swords13
+        image: Swords13,
+        upward: "",
+        downward: ""
     },
     {
         title: "King of Swords",
@@ -454,23 +474,33 @@ const deck = [
     },
     {
         title: "Two of Pentacles",
-        image: Pents02
+        image: Pents02,
+        upward: "",
+        downward: ""
     },
     {
         title: "Three of Pentacles",
-        image: Pents03
+        image: Pents03,
+        upward: "",
+        downward: ""
     },
     {
         title: "Four of Pentacles",
-        image: Pents04
+        image: Pents04,
+        upward: "",
+        downward: ""
     },
     {
         title: "Five of Pentacles",
-        image: Pents05
+        image: Pents05,
+        upward: "",
+        downward: ""
     },
     {
         title: "Six of Pentacles",
-        image: Pents06
+        image: Pents06,
+        upward: "",
+        downward: ""
     },
     {
         title: "Seven of Pentacles",
@@ -498,15 +528,21 @@ const deck = [
     },
     {
         title: "Page of Pentacles",
-        image: Pents11
+        image: Pents11,
+        upward: "",
+        downward: ""
     },
     {
         title: "Knight of Pentacles",
-        image: Pents12
+        image: Pents12,
+        upward: "",
+        downward: ""
     },
     {
         title: "Queen of Pentacles",
-        image: Pents13
+        image: Pents13,
+        upward: "",
+        downward: ""
     },
     {
         title: "King of Pentacles",
