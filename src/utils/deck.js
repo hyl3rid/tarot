@@ -199,24 +199,26 @@ const deck = [
     {
         title: "The Sun",
         image: Sun,
-        upward: "",
-        downward: ""
+        upward: "The Sun is a confirmation that the querent will attain success, glory and delight in his journey. Your happiness and strength lays the foundation to hold any struggle the universe may throw at your way.",
+        downward: "Downward, The Sun is an indication that there are setbacks that may have affected you emotionally and you should take care of the things that you value the most."
     },
     {
         title: "Judgement",
         image: Judgement,
-        upward: "",
-        downward: ""
+        upward: "Judgement is a confirmation to the querent that a higher good is set for the person to accomplish following your own intuition.",
+        downward: "Downward, Judgement indicates that the querent has failed to follow the highest good and should reconsider carefully the next steps."
     },
     {
         title: "The World",
         image: World,
-        upward: "",
-        downward: ""
+        upward: "The World is an indication to the querent that an important phase in your life is concluding successfully and has reached oneness with the highest good.",
+        downward: "Downward, The World lets the querent know that success is foreseen yet you may be left unfulfilled spiritually due to incomplete projects or lack of progress."
     },
     {
         title: "Ace of Wands",
-        image: Wands01
+        image: Wands01,
+        upward: "The Ace of Wands confirms of the coming of a new creativety project and it is your call to action to act upon it since with effort it could be ending as a success.",
+        downward: "Downward, the Ace of Wands indicates delays in the project. There are blockages that are affecting your motivation leaving you feeling stagnated."
     },
     {
         title: "Two of Wands",
@@ -227,8 +229,8 @@ const deck = [
     {
         title: "Three of Wands",
         image: Wands03,
-        upward: "",
-        downward: ""
+        upward: "The Three of Wands is mostly related to business projects which are on the beggining stage but have a great chance of success. It requires carefull planning and foresight to overcome the challenges ahead.",
+        downward: "Downward, the Three of Wands informs us that the project will experience delays due to lack of planning and foresight or due to unexpected events."
     },
     {
         title: "Four of Wands",
@@ -238,11 +240,15 @@ const deck = [
     },
     {
         title: "Five of Wands",
-        image: Wands05
+        image: Wands05,
+        upward: "The Five of Wand appears when there are times of fighting and a lot of competition in a group. This may be channelled by listen to the opinion each has to offer and come to a middle ground.",
+        downward: "Downward, the Five of Wands indicates that times of fighting and competition have passed, there is reconciliation."
     },
     {
         title: "Six of Wands",
-        image: Wands06
+        image: Wands06,
+        upward: "The Six of Wands indicates that victory has come but this is not the end, there is still a long way of challenges to surpass.",
+        downward: "Downward, the Six of Wands indicates success as well but at the cost of some delays and unexpected events to may difficult progress."
     },
     {
         title: "Seven of Wands",
@@ -252,7 +258,9 @@ const deck = [
     },
     {
         title: "Eight of Wands",
-        image: Wands08
+        image: Wands08,
+        upward: "The Eight of Wands appears when the moment is now, it is now the time to take action and move forward with the plan or project in question.",
+        downward: "Downward, the Eight of Wands appears to advise you to slow down and review your option carefully as you might be missing some important information to continue."
     },
     {
         title: "Nine of Wands",
@@ -262,15 +270,21 @@ const deck = [
     },
     {
         title: "Ten of Wands",
-        image: Wands10
+        image: Wands10,
+        upward: "The Ten of Wands reminds us of time when the responsabilities and the burdens were too many that the path was not even visible yet it doesn't mean that the querent wont be able to complete his tasks.",
+        downward: "Downward, the Ten of Wands reminds us that the responsabilities and burdens are starting to take a toll and the situation should be re-assess to avoid exhaustion."
     },
     {
         title: "Page of Wands",
-        image: Wands11
+        image: Wands11,
+        upward: "The Page of Wands is a creative, energetic, ethusiastic and passitonate. It indicates a strong driving force to create and learn about everything.",
+        downward: "Downward, the Page of Wands indicates there are blockages in creativity and enthusiasm and that the querent should consider the possible causes for the lack of progress in exploring different areas."
     },
     {
         title: "Knight of Wands",
-        image: Wands12
+        image: Wands12,
+        upward: "The Knight of Wands is corageous, energetic, competitive person who at time may be wrong by his impulsivitity.",
+        downward: "Downward, the Knight of Wands indicates that there is a lack of security and that the person should take the time to restore his confidence."
     },
     {
         title: "Queen of Wands",
@@ -298,7 +312,9 @@ const deck = [
     },
     {
         title: "Three of Cups",
-        image: Cups03
+        image: Cups03,
+        upward: "The Three of Cups is a sign of sisterhood, celebration and harmony. There may be a lot of social events around you and that is great!",
+        downward: "Downward, the Three of Cups reminds us to avoid overindulgence and excesses and that sometimes a bit time alone is beneficial."
     },
     {
         title: "Four of Cups",
@@ -308,11 +324,15 @@ const deck = [
     },
     {
         title: "Five of Cups",
-        image: Cups05
+        image: Cups05,
+        upward: "The Five of Cups is a reminder that even in the event of loss and regret that are still other options available waiting for you, they just need to be found.",
+        downward: "Downward, the Five of Cups is sign that loss and regret is greatly affecting the querent and he should look forward to make amends with the past."
     },
     {
         title: "Six of Cups",
-        image: Cups06
+        image: Cups06,
+        upward: "The Six of Cups is a card that reminds us of past times that bring nostalgia. Feel free to revisit those past memories and take the best out of them.",
+        downward: "Downward, the Six of Cups wants to inform the querent that while feeling a bit of nostalgia for the past is fine, getting overwhelmed and affected is not. Avoid clinging to the past and be ready to move on."
     },
     {
         title: "Seven of Cups",
