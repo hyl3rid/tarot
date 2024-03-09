@@ -23,8 +23,6 @@ function Deck({numberOfSelectedCards}) {
   const hideModal = () => {
     setShuffledCards(false)
     setReveal(false)
-    setFlippedCards([])
-    setCardsSelected([])
   } 
 
   const hideCards = () => {
@@ -102,6 +100,8 @@ function Deck({numberOfSelectedCards}) {
                 hideCards()
                 shuffle(shuffledDeck)
                 setShuffledCards(true);
+                setFlippedCards([])
+                setCardsSelected([])
             }}>
             <Button>Shuffle Cards</Button>
         </div>
