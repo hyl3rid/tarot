@@ -26,7 +26,6 @@ function Deck({numberOfSelectedCards}) {
   } 
 
   const hideCards = () => {
-    console.log(flippedCards)
     flippedCards.map(item => item.className += " flip-card-clicked")
   }
 
@@ -58,6 +57,10 @@ function Deck({numberOfSelectedCards}) {
         const arr = [...new Array(78)].map(() => Math.round(Math.random()))
         setReversed(arr)
     }
+
+    useEffect(() => {
+        setCardsSelected([])
+    }, [setCardsSelected])
     
     useEffect(() => {
         setShuffledDeck(shuffle(deck))
