@@ -209,6 +209,14 @@
     max-width: 250px;
 }
 
+.reveal__help-icon {
+    height: 32px;
+    width: 32px;
+    position: absolute;
+    top: 10%;
+    right: 10%
+}
+
 @media (max-width: 1024px) {
     .reveal {
         background-color: #100c34;
@@ -359,4 +367,10 @@
         left: 50%;
         transform: translate(-50%);
     }
+
+    .reveal__help-icon {
+        top: 10%;
+        left: 85%;
+    }
   }
+

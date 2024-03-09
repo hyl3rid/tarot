@@ -4,6 +4,7 @@ import { useState, useEffect, useContext } from "react"
 import './Reveal.css'
 import Button from './Button'
 import Modal from './Modal'
+import HelpIcon from './HelpIcon.jsx'
 import { CardContext, CardDispatchContext } from "../context/CardsProvider.jsx";
 
 function Reveal() {
@@ -22,6 +23,7 @@ function Reveal() {
     const [description, setDescription] = useState("")
     const [reversed, setReversed] = useState("")
     const [renderSelected, setRenderSelected] = useState([])
+    const [revealHelp, setRevealHelp] = useState(false)
     
     const revealModal = (image, title, reversed, position, description, upward, downward) => {
         setImage(image)
@@ -37,6 +39,10 @@ function Reveal() {
     const hideModal = () => {
         setReveal(false)
     } 
+
+    const toggleHelp = () => {
+        setRevealHelp(prev => !prev)
+    }
     
     useEffect(() => {
         const shuffled = JSON.parse(localStorage.getItem('shuffledDeck'));
@@ -265,6 +271,10 @@ function Reveal() {
                 </div>}
             </div>
 
+            <div className="reveal__help-icon" onClick={toggleHelp}>
+                <HelpIcon />
+            </div>
+
             <Modal reveal={reveal}>
                 <div className="reveal_modal-container">
                     <p onClick={hideModal} className="reveal__modal-exit">X</p>
@@ -277,6 +287,13 @@ function Reveal() {
                         <p className="reveal__modal-description">{description}</p>
                     )}
                     <p>Card Meaning: {reversed ? downwardMeaning : upwardMeaning}</p>
+                </div>
+            </Modal>
+
+            <Modal reveal={revealHelp}>
+                <div className="reveal_modal-container">
+                    <p onClick={toggleHelp} className="reveal__modal-exit">X</p>
+                    <p>You can click on the images or tap them to see the meaning.</p>
                 </div>
             </Modal>
         </section>
