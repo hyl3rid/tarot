@@ -529,20 +529,20 @@ const deck = [
     {
         title: "Page of Pentacles",
         image: Pents11,
-        upward: "",
-        downward: ""
+        upward: "The Page of Pentacles is someone very enthusiastic about scholarship, business, wealth and material posessions. Access your dreams and make them come true with all the possibilities open to you.",
+        downward: "Downward, the Page of Pentacles may indicate someone who is extremely obsessed with material wealth until the it is detrimental."
     },
     {
         title: "Knight of Pentacles",
         image: Pents12,
-        upward: "",
-        downward: ""
+        upward: "The Knight of Pentacles reminds the querent of hardword, keen eye to detail, conservatism, carefullness are qualities to be embraced. Take your time to tread a path along and follow it to accomplish your goals.",
+        downward: "Downward, the Knight of Pentacles indicates lack of progress in work or feeling bored at the daily grind. Reasses the situation in careful detail for the next steps."
     },
     {
         title: "Queen of Pentacles",
         image: Pents13,
-        upward: "",
-        downward: ""
+        upward: "The Queen of Pentacles is a sign of possesing beauty, wealth, being compassionate, independant and intelligent. The Queen is very considerate and balanced person.",
+        downward: "Downward, the Queen of Pentacles needs to strife on self reliance to be able to provider to her loved ones. There are challenges that need to be revised."
     },
     {
         title: "King of Pentacles",
