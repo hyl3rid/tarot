@@ -19,6 +19,7 @@ function Deck({numberOfSelectedCards}) {
   const [reversed, setReversed] = useState([])
   const [shuffledCards, setShuffledCards] = useState(false)
   const [flippedCards, setFlippedCards] = useState([])
+  const [disableShuffle, setDisableShuffle] = useState(false)
 
   const hideModal = () => {
     setShuffledCards(false)
@@ -72,6 +73,7 @@ function Deck({numberOfSelectedCards}) {
         } else if (numberOfSelectedCards === 10) {
             setCelticCross(true)
         }
+        setDisableShuffle(true)
     }, [numberOfSelectedCards, setThreeCards])
 
     useEffect(() => {
@@ -99,7 +101,7 @@ function Deck({numberOfSelectedCards}) {
                 )
             })}
         </div>
-        <div onClick={() => {
+        <div onClick={disableShuffle ? () => {} : () => {
                 hideCards()
                 shuffle(shuffledDeck)
                 setShuffledCards(true);
