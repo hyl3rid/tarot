@@ -7,6 +7,19 @@ import Modal from './Modal'
 import HelpIcon from './HelpIcon.jsx'
 import { CardContext, CardDispatchContext } from "../context/CardsProvider.jsx";
 
+const ImageComponent = ({ match }) => {
+    const { imageId } = match.params; // Extract the dynamic parameter from the URL
+  
+    // Your logic to fetch or display the image based on imageId
+    const imagePath = `/images/${imageId}.jpg`;
+  
+    return (
+      <div>
+        <img src={imagePath} alt={`Image ${imageId}`} />
+      </div>
+    );
+  };
+
 function Reveal() {
     const location = useLocation();
     let { threeCards, celticCross } = location.state;
@@ -278,7 +291,7 @@ function Reveal() {
             <Modal reveal={reveal}>
                 <div className="reveal_modal-container">
                     <p onClick={hideModal} className="reveal__modal-exit">X</p>
-                    <a href={`${image}`} aria-label={title}>
+                    <a href={`${image}`} aria-label={title} target="_blank">
                         <img src={image} alt={title} className={`reveal-image ${reversed ? 'reversed' : ''}`} />
                     </a>
                     <h2 className="reveal__modal-title">{title}</h2>
