@@ -65,19 +65,19 @@ function Reveal() {
                             <div className="three-cards__selected-cards">
                                 <div className="three-cards__card-container">
                                 <img 
-                                        src={renderSelected[1].image} 
-                                        alt={renderSelected[1].title} 
-                                        className={`reveal-image three-cards ${selectedReversed[1] ? 'reversed' : ''}`} 
-                                        onClick={() => revealModal(
-                                            renderSelected[1].image, 
-                                            renderSelected[1].title, 
-                                            selectedReversed[1], 
-                                            "Past Influences", 
-                                            "Situations of the past the influenced the present.", 
-                                            renderSelected[1].upward, 
-                                            renderSelected[1].downward
-                                        )}
-                                    />
+                                    src={renderSelected[1].image} 
+                                    alt={renderSelected[1].title} 
+                                    className={`reveal-image three-cards ${selectedReversed[1] ? 'reversed' : ''}`} 
+                                    onClick={() => revealModal(
+                                        renderSelected[1].image, 
+                                        renderSelected[1].title, 
+                                        selectedReversed[1], 
+                                        "Past Influences", 
+                                        "Situations of the past the influenced the present.", 
+                                        renderSelected[1].upward, 
+                                        renderSelected[1].downward
+                                    )}
+                                />
                                 </div>
                                 <div className="three-cards__card-container">
                                     <img 
@@ -268,7 +268,9 @@ function Reveal() {
             <Modal reveal={reveal}>
                 <div className="reveal_modal-container">
                     <p onClick={hideModal} className="reveal__modal-exit">X</p>
-                    <img src={image} alt={title} className={`reveal-image ${reversed ? 'reversed' : ''}`} />
+                    <a href={`${image}`} aria-label={title}>
+                        <img src={image} alt={title} className={`reveal-image ${reversed ? 'reversed' : ''}`} />
+                    </a>
                     <h2 className="reveal__modal-title">{title}</h2>
                     <h3>{position}</h3>
                     {description && (
