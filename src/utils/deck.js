@@ -433,14 +433,14 @@ const deck = [
     {
         title: "Nine of Swords",
         image: Swords09,
-        upward: "",
-        downward: ""
+        upward: "The Nine of Swords indicates the querent that excessive worry and guilt haunts daily leaving you powerless and very undecisive.",
+        downward: "Downward, the Nine of Swords indicates the querent that there is healing undergoing. The darkest night have passed and you can see the light again."
     },
     {
         title: "Ten of Swords",
         image: Swords10,
-        upward: "",
-        downward: ""
+        upward: "The Ten of Swords indicates that there has been treason and betrayal against the querent and the wounds are deep. The querent is someone that is making an impact on society.",
+        downward: "Downward, the Ten of Swords is a sign that the querent has been deeply hurt and betrayed. He should move on forward alone without hesitation."
     },
     {
         title: "Page of Swords",
@@ -451,14 +451,14 @@ const deck = [
     {
         title: "Knight of Swords",
         image: Swords12,
-        upward: "",
-        downward: ""
+        upward: "The Knight of Swords indicates a person that is dominate, action oriented, fast thinker. Set to accomplish his goals, is what matters the most.",
+        downward: "Downward, the Knight of Swords indicates a person that the querent should take a carefull approach to the situation as it is delicate and rushing would only cause harm."
     },
     {
         title: "Queen of Swords",
         image: Swords13,
-        upward: "",
-        downward: ""
+        upward: "The Queen of Swords is an intelligent, fast thinking, deterministic, secure and independant woman. She is strong because that is how life taught her to be.",
+        downward: "Downward, the Queen of Swords represents someone who is being spiteful, resentful, cruel and apathic. The emotions generally cloud the Queen's mind at time when she is hot headed."
     },
     {
         title: "King of Swords",
@@ -475,32 +475,32 @@ const deck = [
     {
         title: "Two of Pentacles",
         image: Pents02,
-        upward: "",
-        downward: ""
+        upward: "The Two of Pentacles reminds us that multitasking is being at the time and it done well. You are balancing different aspects of your life in the correct way.",
+        downward: "Downward, the Two of Pentacles means that there is currently too much going on and that it's starting to get difficult to keep up with the tasks. Careful planning should be done to meet every demand."
     },
     {
         title: "Three of Pentacles",
         image: Pents03,
-        upward: "",
-        downward: ""
+        upward: "The Three of Pentacles appears on readings where there are projects which involve multiple parties. There will be recognition for good work.",
+        downward: "Downward, the Three of Pentacles indicates that there is a lack of success and the querent is not seeing the expected results from his work."
     },
     {
         title: "Four of Pentacles",
         image: Pents04,
-        upward: "",
-        downward: ""
+        upward: "The Four of Pentacles is a sign of times when material was given more importance over non-material. The influence of the card is off someone who saves and is a miser.",
+        downward: "Downward, the Four of Pentacles indicates that there will be difficulties related to financial concerns and that you should prepare for any unexpected event."
     },
     {
         title: "Five of Pentacles",
         image: Pents05,
-        upward: "",
-        downward: ""
+        upward: "The Five of Pentacles is a sign of poverty and lacking wealth. Do consider that there is help available and people to support you as you do the highest good.",
+        downward: "Downward, the Five of Pentacles shows the querent that healing and recuperation is undergoing it way. That you should continue to do the highest good in return."
     },
     {
         title: "Six of Pentacles",
         image: Pents06,
-        upward: "",
-        downward: ""
+        upward: "The Six of Pentacles is a sign of social justice where alms are given to the ones who need it the most. A historic practice.",
+        downward: "Downward, the Six of Pentacles indicates that you are a benefactor and rely on the generousity of others. I would be advisable to become more self reliant."
     },
     {
         title: "Seven of Pentacles",
