@@ -4,7 +4,7 @@
 }
   
 .all_cards {
-  padding: 100px 0;
+  padding: 50px 0;
   width: 60vw;
   display: grid;
   grid-template-columns: repeat(auto-fit,  minmax(35px, max-content));
@@ -51,6 +51,7 @@
 @media (hover: hover) {
   .total_card:hover {
       z-index: 100;
+      cursor: pointer;
   }
 }
   

@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect, useCallback, useContext } from 'react'
 import { Link } from 'react-router-dom'
 import './Deck.css';
+import './Reveal.css';
 import deck from '../utils/deck.js'
 import Modal from './Modal.jsx'
 import Button from './Button.jsx'
@@ -16,8 +17,23 @@ function Deck({numberOfSelectedCards}) {
   const [threeCards, setThreeCards] = useState(false)
   const [celticCross, setCelticCross] = useState(false)
   const [reversed, setReversed] = useState([])
+  const [shuffledCards, setShuffledCards] = useState(false)
+  const [flippedCards, setFlippedCards] = useState([])
+
+  const hideModal = () => {
+    setShuffledCards(false)
+    setReveal(false)
+    setFlippedCards([])
+    setCardsSelected([])
+  } 
+
+  const hideCards = () => {
+    console.log(flippedCards)
+    flippedCards.map(item => item.className += " flip-card-clicked")
+  }
 
   const flipCard = (index, isReversed) => {
+    setFlippedCards([...flippedCards, flipCardRef.current[index]])
     if (cardsSelected.length < numberOfSelectedCards) {
         const currentCard = flipCardRef.current[index]
         if (currentCard.className.includes("flip-card-clicked")) {
@@ -65,7 +81,7 @@ function Deck({numberOfSelectedCards}) {
 
   return (
     <div className="deck__container">
-        <h2 className="deck__title">Pick your cards!</h2>
+        <h1 className="deck__title">Pick your cards!</h1>
         <div className="all_cards">
             {shuffledDeck.map((item, index) => {  
                 return (
@@ -81,17 +97,30 @@ function Deck({numberOfSelectedCards}) {
                     </div>
                 )
             })}
-
-            <Modal reveal={reveal} timeout={2500}>
-                <p>You selected all the required cards. Let's continue to reveal the meaning!</p>
-                <Link to={`/reveal`} state={{ cardsSelected, threeCards, celticCross, selectedReversed }}>
-                    <Button>
-                        Reveal Meaning
-                    </Button>
-                </Link>
-            </Modal>
+        </div>
+        <div onClick={() => {
+                hideCards()
+                shuffle(shuffledDeck)
+                setShuffledCards(true);
+            }}>
+            <Button>Shuffle Cards</Button>
         </div>
         <Link to={`/`} className="deck__return-home"><Button>Return Home</Button></Link>
+
+        <Modal reveal={shuffledCards} timeout={0}>
+            <p onClick={hideModal} className="reveal__modal-exit">X</p>
+            <p>Cards shuffled!</p>
+        </Modal>
+
+        <Modal reveal={reveal} timeout={2000}>
+            <p onClick={hideModal} className="reveal__modal-exit">X</p>
+            <p>You selected all the required cards. Let's continue to reveal the meaning!</p>
+            <Link to={`/reveal`} state={{ cardsSelected, threeCards, celticCross, selectedReversed }} aria-label="Reveal Meaning of Cards">
+                <Button>
+                    Reveal Meaning
+                </Button>
+            </Link>
+        </Modal>
     </div>
   );
 }

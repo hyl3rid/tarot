@@ -17,6 +17,7 @@
     height: 160px;
     width: auto;
     z-index: 0;
+    cursor: pointer;
 }
 
 .reveal__modal-description {

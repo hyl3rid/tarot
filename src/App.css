@@ -43,12 +43,12 @@ body {
 	line-height: 1;
 }
 
-h2 {
+h1 {
     font-size: 24px
 }
 
 ol, ul {
-	list-style: none;
+	list-style: inside;
 }
 blockquote, q {
 	quotes: none;

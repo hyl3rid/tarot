@@ -59,30 +59,66 @@ function Reveal() {
     return (
         <section className="reveal">
             <div className="reveal__spreads">
-                {threeCards && (
+                {threeCards && renderSelected.length > 0 && (
                         <div className='three-cards__container'>
-                            <h2 className="three-cards__title">Three Cards Spread</h2>
+                            <h1 className="three-cards__title">Three Cards Spread</h1>
                             <div className="three-cards__selected-cards">
                                 <div className="three-cards__card-container">
-                                    <img src={renderSelected[1].image} alt={renderSelected[1].title} className={`reveal-image three-cards ${selectedReversed[1] ? 'reversed' : ''}`} />
-                                    <p>Past Influences / {renderSelected[1].title}</p>
+                                <img 
+                                        src={renderSelected[1].image} 
+                                        alt={renderSelected[1].title} 
+                                        className={`reveal-image three-cards ${selectedReversed[1] ? 'reversed' : ''}`} 
+                                        onClick={() => revealModal(
+                                            renderSelected[1].image, 
+                                            renderSelected[1].title, 
+                                            selectedReversed[1], 
+                                            "Past Influences", 
+                                            "Situations of the past the influenced the present.", 
+                                            renderSelected[1].upward, 
+                                            renderSelected[1].downward
+                                        )}
+                                    />
                                 </div>
                                 <div className="three-cards__card-container">
-                                    <img src={renderSelected[0].image} alt={renderSelected[0].title} className={`reveal-image three-cards ${selectedReversed[0] ? 'reversed' : ''}`} />
-                                    <p>Present / {renderSelected[0].title}</p>
+                                    <img 
+                                        src={renderSelected[0].image} 
+                                        alt={renderSelected[0].title} 
+                                        className={`reveal-image three-cards ${selectedReversed[0] ? 'reversed' : ''}`} 
+                                        onClick={() => revealModal(
+                                            renderSelected[0].image, 
+                                            renderSelected[0].title, 
+                                            selectedReversed[0], 
+                                            "Present", 
+                                            "Current situation the querent consults.", 
+                                            renderSelected[0].upward, 
+                                            renderSelected[0].downward
+                                        )}
+                                    />
                                 </div>
                                 <div className="three-cards__card-container">
-                                    <img src={renderSelected[2].image} alt={renderSelected[2].title} className={`reveal-image three-cards ${selectedReversed[2] ? 'reversed' : ''}`} />
-                                    <p>Possible Outcome / {renderSelected[2].title}</p>
+                                    <img 
+                                        src={renderSelected[2].image} 
+                                        alt={renderSelected[2].title} 
+                                        className={`reveal-image three-cards ${selectedReversed[2] ? 'reversed' : ''}`} 
+                                        onClick={() => revealModal(
+                                            renderSelected[2].image, 
+                                            renderSelected[2].title, 
+                                            selectedReversed[2], 
+                                            "Possible Outcome", 
+                                            "One of the possible scenarios that may happen.", 
+                                            renderSelected[2].upward, 
+                                            renderSelected[2].downward
+                                        )}
+                                    />
                                 </div>
                             </div>
-                            <Link to={`/`} className="reveal__return-home--three-cards"><Button>Return Home</Button></Link>
+                            <Link to={`/`} className="reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
                         </div>
                     )}
                     
                 {celticCross && renderSelected.length > 0 &&
                 <div className="celtic-cross">
-                    <h2 className="celtic-cross__title">Celtic Cross</h2>
+                    <h1 className="celtic-cross__title">Celtic Cross</h1>
                     <div className="celtic-cross__container">
                         <img 
                             src={renderSelected[0].image} 
@@ -225,7 +261,7 @@ function Reveal() {
                             )}
                         />
                     </div>
-                    <Link to={`/`} className="reveal__return-home"><Button>Return Home</Button></Link>
+                    <Link to={`/`} className="reveal__return-home" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
                 </div>}
             </div>
 

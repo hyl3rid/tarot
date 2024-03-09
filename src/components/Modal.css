@@ -14,7 +14,7 @@ dialog[open]:focus-visible {
 
 @media (max-width: 1024px) {
   dialog[open] {
-    margin: auto 30px;
+    margin: auto;
     padding: 20px 50px;
     font-size: 15px;
   }

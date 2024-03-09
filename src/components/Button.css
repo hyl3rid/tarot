@@ -5,8 +5,16 @@
     color: #fff;
     border: none;
     font-size: 20px;
+    width: 400px;
+}
+
+@media (max-width: 1024px) {
+    .btn {
+        width: 100%;
+    }
 }
 
 .btn:hover {
     transform: scale(1.05);
+    cursor: pointer;
 }
