@@ -32,7 +32,7 @@
     margin-bottom: 20px;
 }
 
-.home__modal-exit {
+.modal-exit {
     display: flex;
     justify-content: flex-end;
     margin-bottom: 20px;

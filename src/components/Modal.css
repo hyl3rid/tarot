@@ -12,11 +12,18 @@ dialog[open]:focus-visible {
   outline: none;
 }
 
+@media (hover: hover) {
+  .modal-exit:hover {
+      color: #23c433;
+  }
+}
+
 @media (max-width: 1024px) {
   dialog[open] {
     margin: auto;
     padding: 20px 50px;
     font-size: 15px;
+    max-width: 90%;
   }
 
   dialog[open] button {

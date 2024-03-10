@@ -36,7 +36,7 @@ function Home() {
                     <Button>Play</Button>
                 </div>
                 <Modal reveal={reveal} timeout={0}>
-                    <p className="home__modal-exit" onClick={hideModal}>X</p>
+                    <p className="modal-exit" onClick={hideModal}>X</p>
                     <h3 className="home__modal-title">Pick a Spread</h3>
                     <div className="home__modal-spreads">
                         <Link to={`/board`} className="home__modal-links" state={{ spread: 'drawOne' }} aria-label="Play the Draw One Card">One Card</Link>
