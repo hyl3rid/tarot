@@ -19,8 +19,8 @@ function Home() {
         <>
             <div className="home__main-app">
                 <SVGLogo />
-                <h1>Tarot Realms</h1>
-                <p className="home__margin-20">This is a website where you can play different kinds of tarot spreads known.</p>
+                <h1>Tarot Realms of Insight</h1>
+                <p className="home__margin-20">This is a website where you can play different kinds of tarot spreads known for free.</p>
                 <p className="home__margin-20">Following are the spreads available:</p>
                 <ul>
                     <li>Three Card Spread</li>
