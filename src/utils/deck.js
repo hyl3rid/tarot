@@ -505,7 +505,7 @@ const deck = [
     {
         title: "Seven of Pentacles",
         image: Pents07,
-        upward: "The Seven of Pentacles highlights that hard word, dedication and patience has now spawn the fruits of labor and that you should reap its rewards.",
+        upward: "The Seven of Pentacles highlights that hard word, dedication and patience has now spawn the fruits of labor and that the querent should reap its rewards.",
         downward: "Downward, the Seven of Pentacles highlights that hard word, dedication and patience are not bearing its fruits as expected and this is taking its toll."
     },
     {
@@ -517,8 +517,8 @@ const deck = [
     {
         title: "Nine of Pentacles",
         image: Pents09,
-        upward: "The Nine of Pentacles pertains to finalcial success and independence. Feel free to enjoy luxuries, time off and other benefits you may have.",
-        downward: "Downward, the Nine of Pentacles can indicate one is not satisfied with the status quo even after you have achieved a lot at this stage."
+        upward: "The Nine of Pentacles pertains to financial success and independence. The querent is free to enjoy luxuries, time off and other benefits that are available.",
+        downward: "Downward, the Nine of Pentacles can indicate that the querent is not satisfied with the status quo even after a lot has been achieved at this stage."
     },
     {
         title: "Ten of Pentacles",
