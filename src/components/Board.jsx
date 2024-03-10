@@ -14,6 +14,8 @@ function Board() {
             setNumCards(10)
         } else if (spread === 'threeCards') {
             setNumCards(3)
+        } else if (spread === 'drawOne') {
+            setNumCards(1)
         }
     }, [spread])
 

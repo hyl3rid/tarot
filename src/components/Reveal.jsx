@@ -9,7 +9,7 @@ import { CardContext, CardDispatchContext } from "../context/CardsProvider.jsx";
 
 function Reveal() {
     const location = useLocation();
-    let { threeCards, celticCross } = location.state;
+    let { threeCards, celticCross, drawOne } = location.state;
 
     const {shuffledDeck, cardsSelected, selectedReversed} = useContext(CardContext);
     const {setShuffledDeck, setCardsSelected, setSelectedReversed} = useContext(CardDispatchContext);
@@ -65,9 +65,31 @@ function Reveal() {
     return (
         <section className="reveal">
             <div className="reveal__spreads">
+                {drawOne && renderSelected.length > 0 && (
+                    <section class="draw-one__container">
+                        <div class="draw-one__content">
+                            <h1 className="reveal__title">Draw One Card</h1>
+                            <img 
+                            src={renderSelected[0].image} 
+                            alt={renderSelected[0].title} 
+                            className={`reveal-image three-cards ${selectedReversed[0] ? 'reversed' : ''}`} 
+                            onClick={() => revealModal(
+                                renderSelected[0].image, 
+                                renderSelected[0].title, 
+                                selectedReversed[0], 
+                                "Yes/No", 
+                                "Answers a single question from the querent.", 
+                                renderSelected[0].upward, 
+                                renderSelected[0].downward
+                            )}
+                            />
+                        </div>
+                        <Link to={`/`} className="reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                    </section>
+                )}
                 {threeCards && renderSelected.length > 0 && (
                         <div className='three-cards__container'>
-                            <h1 className="three-cards__title">Three Cards Spread</h1>
+                            <h1 className="reveal__title">Three Cards Spread</h1>
                             <div className="three-cards__selected-cards">
                                 <div className="three-cards__card-container">
                                 <img 

@@ -290,7 +290,7 @@ const deck = [
         title: "Queen of Wands",
         image: Wands13,
         upward: "The Queen of Wands is attractive, spontaneous, versatile, energetic and grounded women ready for the pursuit of creativity.",
-        downward: "Downward, the Queen of Wands may indicate you that you are lacking confidence in yourself and should strive to build it up."
+        downward: "Downward, the Queen of Wands may indicate the querent is are lacking confidence and should strive to build it up to continue with the objectives at hand."
     },
     {
         title: "King of Wands",
@@ -302,7 +302,7 @@ const deck = [
         title: "Ace of Cups",
         image: Cups01,
         upward: "The Ace of Cups is the beginning of prosperity, health, love, joy for the querent. There is a creative force in this card and the appearance of this card is an invitation to create.",
-        downward: "Downward, the Ace of Cup is reminding us that for success its necessary to put your heart into the right place. Reconsider the reasons on why there is a blockage in creativity."
+        downward: "Downward, the Ace of Cup is reminding the querent that for success its necessary to put your heart into the right place. Reconsider the reasons on why there is a blockage in creativity."
     },
     {
         title: "Two of Cups",

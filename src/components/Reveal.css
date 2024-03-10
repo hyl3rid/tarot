@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     padding-bottom: 50px;
+    width: 90%;
 }
 
 .reveal-image {
@@ -48,7 +49,7 @@
 
 .three-cards {
     margin-top: 50px;
-    padding: 30px;
+    margin: 20px 30px;
     height: 240px;
     width: 160px;
 }
@@ -201,8 +202,9 @@
     width: auto;
 }
 
-.three-cards__title {
+.reveal__title {
     margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 .three-cards__card-container {
@@ -215,6 +217,19 @@
     position: absolute;
     top: 10%;
     right: 10%
+}
+
+.draw-one__container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.draw-one__content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 @media (max-width: 1024px) {
@@ -230,8 +245,8 @@
         color: #fff;
     }
 
-    .three-cards__title {
-        margin-top: 50px;
+    dialog[open] {
+        padding: 20px;
     }
 
     .celtic-cross {
@@ -241,7 +256,7 @@
 
     .celtic-cross__title {
         position: absolute;
-        top: 5%;
+        top: 10%;
         left: 50%;
         transform: translate(-50%, -50%);
         white-space: nowrap;
@@ -369,7 +384,7 @@
     }
 
     .reveal__help-icon {
-        top: 10%;
+        top: 150px;
         left: 85%;
     }
   }

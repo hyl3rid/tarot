@@ -16,6 +16,7 @@ function Deck({numberOfSelectedCards}) {
   const [reveal, setReveal] = useState(false)
   const [threeCards, setThreeCards] = useState(false)
   const [celticCross, setCelticCross] = useState(false)
+  const [drawOne, setDrawOne] = useState(false)
   const [reversed, setReversed] = useState([])
   const [shuffledCards, setShuffledCards] = useState(false)
   const [flippedCards, setFlippedCards] = useState([])
@@ -72,6 +73,8 @@ function Deck({numberOfSelectedCards}) {
             setThreeCards(true)
         } else if (numberOfSelectedCards === 10) {
             setCelticCross(true)
+        } else if (numberOfSelectedCards === 1) {
+            setDrawOne(true)
         }
         setDisableShuffle(true)
     }, [numberOfSelectedCards, setThreeCards])
@@ -85,6 +88,7 @@ function Deck({numberOfSelectedCards}) {
   return (
     <div className="deck__container">
         <h1 className="deck__title">Pick your cards!</h1>
+        <p className="deck__description">Take some time to select the cards you feel more attracted to and think about the question at hand. This will help obtain a more accurate result on the reading.</p>
         <div className="all_cards">
             {shuffledDeck.map((item, index) => {  
                 return (
@@ -101,16 +105,18 @@ function Deck({numberOfSelectedCards}) {
                 )
             })}
         </div>
-        <div onClick={disableShuffle ? () => {} : () => {
-                hideCards()
-                shuffle(shuffledDeck)
-                setShuffledCards(true);
-                setFlippedCards([])
-                setCardsSelected([])
-            }}>
-            <Button>Shuffle Cards</Button>
+        <div className="deck__button-container">
+            <div onClick={disableShuffle ? () => {} : () => {
+                    hideCards()
+                    shuffle(shuffledDeck)
+                    setShuffledCards(true);
+                    setFlippedCards([])
+                    setCardsSelected([])
+                }}>
+                <Button>Shuffle Cards</Button>
+            </div>
+            <Link to={`/`} className="deck__return-home"><Button>Return Home</Button></Link>
         </div>
-        <Link to={`/`} className="deck__return-home"><Button>Return Home</Button></Link>
 
         <Modal reveal={shuffledCards} timeout={0}>
             <p onClick={hideModal} className="reveal__modal-exit">X</p>
@@ -120,11 +126,13 @@ function Deck({numberOfSelectedCards}) {
         <Modal reveal={reveal} timeout={2000}>
             <p onClick={hideModal} className="reveal__modal-exit">X</p>
             <p>You selected all the required cards. Let's continue to reveal the meaning!</p>
-            <Link to={`/reveal`} state={{ cardsSelected, threeCards, celticCross, selectedReversed }} aria-label="Reveal Meaning of Cards">
-                <Button>
-                    Reveal Meaning
-                </Button>
-            </Link>
+            <div className="deck__margin-20">
+                <Link to={`/reveal`} state={{ cardsSelected, selectedReversed, threeCards, celticCross, drawOne }} aria-label="Reveal Meaning of Cards">
+                    <Button>
+                        Reveal Meaning
+                    </Button>
+                </Link>
+            </div>
         </Modal>
     </div>
   );

@@ -2,7 +2,7 @@
     background-color: #100c34;
     color: #fff;
     width: 100vw;
-    height: calc(100vh - 100px);
+    height: 100vh;
     padding: 50px;
 }
 
@@ -39,6 +39,10 @@
     cursor: pointer;
 }
 
-.home__main-paragraph {
+.home__margin-20 {
     margin: 20px 0;
+}
+
+.home__play-button {
+    width: min-content;
 }
