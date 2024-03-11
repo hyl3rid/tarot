@@ -121,8 +121,8 @@ const deck = [
     {
         title: "The Lovers",
         image: TheLovers,
-        upward: "The Lovers is about the right choice, about loving, and doing what is ethically correct to finally not fall into temptation." ,
-        downward: "Downward, The Lovers indicates that the querent should be very careful about his choices and not fall into temptation as it may be regretted greatfully."
+        upward: "The Lovers is about the right choice, about love, and doing what is ethically correct to finally not falling into temptation." ,
+        downward: "Downward, The Lovers indicates that the querent should be very careful about his choices and not falling into temptation as it may be regretted greatfully."
     },
     {
         title: "The Chariot",
@@ -248,7 +248,7 @@ const deck = [
         title: "Six of Wands",
         image: Wands06,
         upward: "The Six of Wands indicates that victory has come but this is not the end, there is still a long way of challenges to surpass.",
-        downward: "Downward, the Six of Wands indicates success as well but at the cost of some delays and unexpected events to may difficult progress."
+        downward: "Downward, the Six of Wands indicates success as well but at the cost of some delays and unexpected events that may add difficulties to the progress."
     },
     {
         title: "Seven of Wands",
@@ -409,8 +409,8 @@ const deck = [
     {
         title: "Five of Swords",
         image: Swords05,
-        upward: "The Five of Swords appears in times when you had a disagreement or argument but ended up losing more even if you appear to have the advantage.",
-        downward: "Downward, the Five of Swords will indicates loss of a disagreement even if you were correct and that you have been taken advantage off. "
+        upward: "The Five of Swords appears in times when the querent had a disagreement or argument but ended up losing more even if it seems to have the advantage.",
+        downward: "Downward, the Five of Swords indicates loss of a disagreement and taken advantage off, even if the querent was correct."
     },
     {
         title: "Six of Swords",
@@ -493,8 +493,8 @@ const deck = [
     {
         title: "Five of Pentacles",
         image: Pents05,
-        upward: "The Five of Pentacles is a sign of poverty and lacking wealth. Do consider that there is help available and people to support you as you do the highest good.",
-        downward: "Downward, the Five of Pentacles shows the querent that healing and recuperation is undergoing it way. That you should continue to do the highest good in return."
+        upward: "The Five of Pentacles is a sign of poverty and lacking wealth. Do consider that there is help available and people to support the querent as long as the highest good is done.",
+        downward: "Downward, the Five of Pentacles shows the querent that healing and recuperation is undergoing its way. The querent should continue to do the highest good in return."
     },
     {
         title: "Six of Pentacles",
