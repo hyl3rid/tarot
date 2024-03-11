@@ -22,10 +22,11 @@ function Deck({numberOfSelectedCards}) {
   const [flippedCards, setFlippedCards] = useState([])
   const [disableShuffle, setDisableShuffle] = useState(false)
 
-  const hideModal = () => {
-    setShuffledCards(false)
-    setReveal(false)
-  } 
+    const hideModals = () => {
+        setShuffledCards(false)
+        setReveal(false)
+        setDisableShuffle(false)
+    } 
 
   const hideCards = () => {
     flippedCards.map(item => item.className += " flip-card-clicked")
@@ -76,8 +77,14 @@ function Deck({numberOfSelectedCards}) {
         } else if (numberOfSelectedCards === 1) {
             setDrawOne(true)
         }
-        setDisableShuffle(true)
-    }, [numberOfSelectedCards, setThreeCards])
+    }, [numberOfSelectedCards])
+
+    useEffect(() => {
+        console.log(cardsSelected.length)
+        if (cardsSelected.length === numberOfSelectedCards) {
+            setDisableShuffle(true)
+        }
+    }, [cardsSelected, numberOfSelectedCards])
 
     useEffect(() => {
         localStorage.setItem('shuffledDeck', JSON.stringify(shuffledDeck));
@@ -107,6 +114,7 @@ function Deck({numberOfSelectedCards}) {
         </div>
         <div className="deck__button-container">
             <div onClick={disableShuffle ? () => {} : () => {
+                console.log('hji')
                     hideCards()
                     shuffle(shuffledDeck)
                     setShuffledCards(true);
@@ -119,12 +127,12 @@ function Deck({numberOfSelectedCards}) {
         </div>
 
         <Modal reveal={shuffledCards} timeout={0}>
-            <p onClick={hideModal} className="reveal__modal-exit">X</p>
+            <p onClick={hideModals} className="modal-exit">X</p>
             <p>Cards shuffled!</p>
         </Modal>
 
         <Modal reveal={reveal} timeout={2000}>
-            <p onClick={hideModal} className="reveal__modal-exit">X</p>
+            <p onClick={hideModals} className="modal-exit">X</p>
             <p>You selected all the required cards. Let's continue to reveal the meaning!</p>
             <div className="deck__margin-20">
                 <Link to={`/reveal`} state={{ cardsSelected, selectedReversed, threeCards, celticCross, drawOne }} aria-label="Reveal Meaning of Cards">

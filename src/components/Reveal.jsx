@@ -25,6 +25,8 @@ function Reveal() {
     const [renderSelected, setRenderSelected] = useState([])
     const [revealHelp, setRevealHelp] = useState(false)
     const [revealSummary, setRevealSummary] = useState(false)
+    const [cardsPositions, setCardsPositions] = useState([])
+    const [cardsDescriptions, setCardsDescriptions] = useState([])
     
     const revealModal = (image, title, reversed, position, description, upward, downward) => {
         setImage(image)
@@ -48,6 +50,42 @@ function Reveal() {
     const toggleHelp = () => {
         setRevealHelp(prev => !prev)
     }
+
+    useEffect(() => {
+        if (threeCards) {
+            setCardsPositions(["Past Influences", "Present", "Possible Outcome"])
+            setCardsDescriptions([
+                "Situations of the past that influenced the present.", 
+                "Current situation the querent consults.", 
+                "One of the possible scenarios that may happen."
+            ])
+        } else if (celticCross) {
+            setCardsPositions([
+                "Situation", 
+                "Cross Purpose",
+                "Foundation",
+                "Past Influences",
+                "Possible Future",
+                "Past",
+                "Self",
+                "Environment",
+                "Hopes and Fears",
+                "Outcome"
+            ])
+            setCardsDescriptions([
+                "Overall situation on why the querent consults the Tarot.", 
+                "Current factors that play against the querent to fulfill his goal.", 
+                "Past experiences that keep the querent from reaching his goals",
+                "Influences of the past that made the querent take this path",
+                "Near future that may occur",
+                "The past of the querent",
+                "How the querent feels about himself.",
+                "External factors such as society, family and friends.",
+                "Expresses how the querent hopes for the situation to be or ideas that hold the querent back.",
+                "The result of all the circumstances."
+            ])
+        }
+    }, [setCardsPositions, celticCross, threeCards])
     
     useEffect(() => {
         const shuffled = JSON.parse(localStorage.getItem('shuffledDeck'));
@@ -89,7 +127,7 @@ function Reveal() {
                             )}
                             />
                         </div>
-                        <Link to={`/`} className="reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                        <Link to={`/`} className="reveal__return-home--draw-one" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
                     </section>
                 )}
                 {threeCards && renderSelected.length > 0 && (
@@ -105,8 +143,8 @@ function Reveal() {
                                         renderSelected[1].image, 
                                         renderSelected[1].title, 
                                         selectedReversed[1], 
-                                        "Past Influences", 
-                                        "Situations of the past the influenced the present.", 
+                                        cardsPositions[0], 
+                                        cardsDescriptions[0], 
                                         renderSelected[1].upward, 
                                         renderSelected[1].downward
                                     )}
@@ -121,8 +159,8 @@ function Reveal() {
                                             renderSelected[0].image, 
                                             renderSelected[0].title, 
                                             selectedReversed[0], 
-                                            "Present", 
-                                            "Current situation the querent consults.", 
+                                            cardsPositions[1], 
+                                            cardsDescriptions[1], 
                                             renderSelected[0].upward, 
                                             renderSelected[0].downward
                                         )}
@@ -137,20 +175,20 @@ function Reveal() {
                                             renderSelected[2].image, 
                                             renderSelected[2].title, 
                                             selectedReversed[2], 
-                                            "Possible Outcome", 
-                                            "One of the possible scenarios that may happen.", 
+                                            cardsPositions[2], 
+                                            cardsDescriptions[2], 
                                             renderSelected[2].upward, 
                                             renderSelected[2].downward
                                         )}
                                     />
                                 </div>
                             </div>
-                            {/* <div className="reveal__btn-container">
+                            <div className="reveal__btn-container">
                                 <div onClick={toggleModalSummary}>
                                     <Button>See Summary</Button>
-                                </div> */}
+                                </div>
                                 <Link to={`/`} className="reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
-                            {/* </div> */}
+                            </div>
                         </div>
                     )}
                     
@@ -166,8 +204,8 @@ function Reveal() {
                                 renderSelected[0].image, 
                                 renderSelected[0].title, 
                                 selectedReversed[0], 
-                                "Situation", 
-                                "Overall situation on why the querent consults the Tarot.", 
+                                cardsPositions[0], 
+                                cardsDescriptions[0], 
                                 renderSelected[0].upward, 
                                 renderSelected[0].downward
                             )}
@@ -180,8 +218,8 @@ function Reveal() {
                                 renderSelected[1].image, 
                                 renderSelected[1].title, 
                                 selectedReversed[1], 
-                                "Cross Purpose", 
-                                "Current factors that play against the querent to fulfill his goal.",
+                                cardsPositions[1], 
+                                cardsDescriptions[1],
                                 renderSelected[1].upward, 
                                 renderSelected[1].downward
                             )}
@@ -194,8 +232,8 @@ function Reveal() {
                                 renderSelected[2].image, 
                                 renderSelected[2].title, 
                                 selectedReversed[2], 
-                                "Foundation", 
-                                "Past experiences that keep the querent from reaching his goals",
+                                cardsPositions[2], 
+                                cardsDescriptions[2],
                                 renderSelected[2].upward, 
                                 renderSelected[2].downward
                             )}
@@ -208,8 +246,8 @@ function Reveal() {
                                 renderSelected[3].image, 
                                 renderSelected[3].title, 
                                 selectedReversed[3], 
-                                "Past Influences",
-                                "Influences of the past that made the querent take this path",
+                                cardsPositions[3],
+                                cardsDescriptions[3],
                                 renderSelected[3].upward, 
                                 renderSelected[3].downward
                             )}
@@ -222,8 +260,8 @@ function Reveal() {
                                 renderSelected[4].image, 
                                 renderSelected[4].title, 
                                 selectedReversed[4], 
-                                "Possible Future",
-                                "Near future that may occur",
+                                cardsPositions[4],
+                                cardsDescriptions[4],
                                 renderSelected[4].upward, 
                                 renderSelected[4].downward
                             )}
@@ -236,8 +274,8 @@ function Reveal() {
                                 renderSelected[5].image, 
                                 renderSelected[5].title, 
                                 selectedReversed[5], 
-                                "Past",
-                                "The past of the querent",
+                                cardsPositions[5],
+                                cardsDescriptions[5],
                                 renderSelected[5].upward, 
                                 renderSelected[5].downward
                             )}
@@ -250,8 +288,8 @@ function Reveal() {
                                 renderSelected[6].image, 
                                 renderSelected[6].title, 
                                 selectedReversed[6], 
-                                "Self", 
-                                "How the querent feels about himself.",
+                                cardsPositions[6], 
+                                cardsDescriptions[6],
                                 renderSelected[6].upward, 
                                 renderSelected[6].downward
                             )}
@@ -264,8 +302,8 @@ function Reveal() {
                                 renderSelected[7].image, 
                                 renderSelected[7].title, 
                                 selectedReversed[7], 
-                                "Environment", 
-                                "External factors such as society, family and friends.",
+                                cardsPositions[7], 
+                                cardsDescriptions[7],
                                 renderSelected[7].upward, 
                                 renderSelected[7].downward
                             )}
@@ -278,8 +316,8 @@ function Reveal() {
                                 renderSelected[8].image, 
                                 renderSelected[8].title, 
                                 selectedReversed[8], 
-                                "Hopes and Fears", 
-                                "Expresses how the querent hopes for the situation to be or ideas that hold the querent back.",
+                                cardsPositions[8], 
+                                cardsDescriptions[8],
                                 renderSelected[8].upward, 
                                 renderSelected[8].downward
                             )}
@@ -292,14 +330,19 @@ function Reveal() {
                                 renderSelected[9].image, 
                                 renderSelected[9].title, 
                                 selectedReversed[9], 
-                                "Outcome", 
-                                "The result of all the circumstances.",
+                                cardsPositions[9], 
+                                cardsDescriptions[9],
                                 renderSelected[9].upward, 
                                 renderSelected[9].downward
                             )}
                         />
                     </div>
-                    <Link to={`/`} className="reveal__return-home" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                    <div className="reveal__btn-container--celtic-cross">
+                        <div onClick={toggleModalSummary}>
+                            <Button>See Summary</Button>
+                        </div>
+                        <Link to={`/`} aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                    </div>
                 </div>}
             </div>
 
@@ -309,7 +352,7 @@ function Reveal() {
 
             <Modal reveal={reveal}>
                 <div className="reveal_modal-container">
-                    <p onClick={hideModal} className="reveal__modal-exit">X</p>
+                    <p onClick={hideModal} className="modal-exit">X</p>
                     <a href={`${image}`} aria-label={title} target="_blank" rel="noreferrer">
                         <img src={image} alt={title} className={`reveal-image ${reversed ? 'reversed' : ''}`} />
                     </a>
@@ -324,21 +367,20 @@ function Reveal() {
 
             <Modal reveal={revealSummary}>
                 <div className="reveal_modal-container">
-                    <p onClick={toggleModalSummary} className="reveal__modal-exit">X</p>
+                    <p onClick={toggleModalSummary} className="summary__modal-exit">X</p>
                     {cardsSelected.map((selected, index) => {
-                        console.log(shuffledDeck[selected])
                         return (
-                            <>
-                                <a href={`${shuffledDeck[selected]}`} aria-label={title} target="_blank" rel="noreferrer">
-                                    <img src={image} alt={title} className={`reveal-image ${reversed ? 'reversed' : ''}`} />
+                            <div className="reveal__summary-container" key={index}>
+                                <a href={`${shuffledDeck[selected].image}`} aria-label={shuffledDeck[selected].title} target="_blank" rel="noreferrer">
+                                    <img src={shuffledDeck[selected].image} alt={shuffledDeck[selected].title} className={`reveal-image ${selectedReversed[index] ? 'reversed' : ''}`} />
                                 </a>
-                                <h2 className="reveal__modal-title">{title}</h2>
-                                <h3>{position}</h3>
-                                {description && (
-                                    <p className="reveal__modal-description">{description}</p>
+                                <h2 className="reveal__modal-title">{shuffledDeck[selected].title}</h2>
+                                <h3>{cardsPositions[index]}</h3>
+                                {cardsDescriptions[index] && (
+                                    <p className="reveal__modal-description">{cardsDescriptions[index]}</p>
                                 )}
-                                <p>Card Meaning: {reversed ? downwardMeaning : upwardMeaning}</p>
-                            </>
+                                <p>Card Meaning: {selectedReversed[index] ? shuffledDeck[selected].downward : shuffledDeck[selected].upward}</p>
+                            </div>
                         )
                     })}
                 </div>
@@ -346,7 +388,7 @@ function Reveal() {
 
             <Modal reveal={revealHelp}>
                 <div className="reveal_modal-container">
-                    <p onClick={toggleHelp} className="reveal__modal-exit">X</p>
+                    <p onClick={toggleHelp} className="modal-exit">X</p>
                     <p>You can click on the images or tap them to see the meaning.</p>
                 </div>
             </Modal>

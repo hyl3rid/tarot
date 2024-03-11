@@ -4,6 +4,9 @@
     height: 100vh;
     position: relative;
     color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .reveal__spreads {
@@ -15,6 +18,10 @@
     height: 100vh;
 }
 
+.reveal_modal-container {
+    position: relative;
+}
+
 .reveal-image {
     height: 160px;
     width: auto;
@@ -24,6 +31,16 @@
 
 .reveal__modal-description {
     margin: 20px 0; 
+}
+
+.reveal__return-home {
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+
+.reveal__return-home--draw-one {
+    padding-top: 50px;
 }
 
 @media (hover: hover) {
@@ -53,10 +70,6 @@
     margin: 20px 30px;
     height: 240px;
     width: 160px;
-}
-
-.reveal__return-home--three-cards {
-    margin-top: 50px;
 }
 
 .situation {
@@ -169,27 +182,20 @@
     transform: translate(-50%, -50%) scaleY(-1) scaleX(-1);
 }
 
-.reveal__return-home {
-    position: absolute;
-    top: 50%;
-    left: 5%;
-}
-
 .celtic-cross__title {
     position: absolute;
     top: 40%;
     left: 5%;
 }
 
-.reveal__modal-exit {
-    display: flex;
-    justify-content: flex-end;
+.summary__modal-exit {
     cursor: pointer;
-    margin-bottom: 20px;
+    position: absolute;
+    right: 0;
 }
 
 @media (hover: hover) {
-    .reveal__modal-exit:hover {
+    .summary__modal-exit:hover {
         color: #23c433;
     }
 }
@@ -220,6 +226,26 @@
     right: 10%
 }
 
+.reveal__summary-container {
+    padding: 20px 0;
+}
+
+.reveal__btn-container {
+    display: flex;
+    column-gap: 20px;
+    margin-top: 50px;
+}
+
+.reveal__btn-container--celtic-cross {
+    position: absolute;
+    top: 55%;
+    left: 17%;
+    transform: translate(-50%);
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
 .draw-one__container {
     display: flex;
     flex-direction: column;
@@ -248,10 +274,26 @@
 
     .reveal__spreads {
         height: 100%;
+        padding-bottom: 200px;
+    }
+
+    .reveal__btn-container {
+        flex-direction: column;
+        row-gap: 20px;
     }
 
     dialog[open] {
         padding: 20px;
+    }
+
+    .reveal__btn-container--celtic-cross {
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%);
+        display: flex;
+        flex-direction: column;
+        row-gap: 20px;
     }
 
     .celtic-cross {
