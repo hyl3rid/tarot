@@ -6,13 +6,6 @@
     padding: 50px;
 }
 
-@media (max-width: 1024px) {
-    .home__main-app {
-        width: auto;
-        height: 100%;
-    }
-  }
-
 .home__modal-spreads {
     display: flex;
     flex-direction: column;
