@@ -24,6 +24,7 @@ function Reveal() {
     const [reversed, setReversed] = useState("")
     const [renderSelected, setRenderSelected] = useState([])
     const [revealHelp, setRevealHelp] = useState(false)
+    const [revealSummary, setRevealSummary] = useState(false)
     
     const revealModal = (image, title, reversed, position, description, upward, downward) => {
         setImage(image)
@@ -38,6 +39,10 @@ function Reveal() {
 
     const hideModal = () => {
         setReveal(false)
+    } 
+
+    const toggleModalSummary = () => {
+        setRevealSummary(prev => !prev)
     } 
 
     const toggleHelp = () => {
@@ -140,7 +145,12 @@ function Reveal() {
                                     />
                                 </div>
                             </div>
-                            <Link to={`/`} className="reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                            <div className="reveal__btn-container">
+                                <div onClick={toggleModalSummary}>
+                                    <Button>See Summary</Button>
+                                </div>
+                                <Link to={`/`} className="reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                            </div>
                         </div>
                     )}
                     
@@ -309,6 +319,28 @@ function Reveal() {
                         <p className="reveal__modal-description">{description}</p>
                     )}
                     <p>Card Meaning: {reversed ? downwardMeaning : upwardMeaning}</p>
+                </div>
+            </Modal>
+
+            <Modal reveal={revealSummary}>
+                <div className="reveal_modal-container">
+                    <p onClick={toggleModalSummary} className="reveal__modal-exit">X</p>
+                    {cardsSelected.map((selected, index) => {
+                        console.log(shuffledDeck[selected])
+                        return (
+                            <>
+                                <a href={`${shuffledDeck[selected]}`} aria-label={title} target="_blank" rel="noreferrer">
+                                    <img src={image} alt={title} className={`reveal-image ${reversed ? 'reversed' : ''}`} />
+                                </a>
+                                <h2 className="reveal__modal-title">{title}</h2>
+                                <h3>{position}</h3>
+                                {description && (
+                                    <p className="reveal__modal-description">{description}</p>
+                                )}
+                                <p>Card Meaning: {reversed ? downwardMeaning : upwardMeaning}</p>
+                            </>
+                        )
+                    })}
                 </div>
             </Modal>
 

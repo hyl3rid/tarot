@@ -246,6 +246,10 @@
         color: #fff;
     }
 
+    .reveal__spreads {
+        height: 100%;
+    }
+
     dialog[open] {
         padding: 20px;
     }
