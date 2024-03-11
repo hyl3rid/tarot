@@ -145,12 +145,12 @@ function Reveal() {
                                     />
                                 </div>
                             </div>
-                            <div className="reveal__btn-container">
+                            {/* <div className="reveal__btn-container">
                                 <div onClick={toggleModalSummary}>
                                     <Button>See Summary</Button>
-                                </div>
+                                </div> */}
                                 <Link to={`/`} className="reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
-                            </div>
+                            {/* </div> */}
                         </div>
                     )}
                     
