@@ -187,13 +187,13 @@ const deck = [
     {
         title: "The Star",
         image: Star,
-        upward: "The Star is telling the reminding the querent about hope and optimism, that things will turn out right even if the situation has been difficult to navigate.",
+        upward: "The Star is reminding the querent about hope and optimism, that things will turn out right even if the situation has been difficult to navigate.",
         downward: "Downward, The Star means that the querent can be more optimistic and that hope has been lost. If things are tought right now, be sure there are reasons for which to be optimistic"
     },
     {
         title: "The Moon",
         image: Moon,
-        upward: "The Moon represents that mystery and the unknown of the universe is affecting how we perceive events and that intuition and careful decision making should be taken.",
+        upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events are perceived. Intuition and careful decision making should be taken.",
         downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown or misunderstood causes. Try to be extremely cautious about the decisions taken and follow your own intuition."
     },
     {
@@ -229,7 +229,7 @@ const deck = [
     {
         title: "Three of Wands",
         image: Wands03,
-        upward: "The Three of Wands is mostly related to business projects which are on the beginning stage but have a great chance of success. It requires carefull planning and foresight to overcome the challenges ahead.",
+        upward: "The Three of Wands is mostly related to business projects which are on the beginning stage but have a great chance of success. It requires careful planning and foresight to overcome the challenges ahead.",
         downward: "Downward, the Three of Wands informs us that the project will experience delays due to lack of planning and foresight or due to unexpected events."
     },
     {
@@ -386,7 +386,7 @@ const deck = [
         title: "Ace of Swords",
         image: Swords01,
         upward: "The Ace of Swords is a sign that a new intellectual endeavor is emerging and is at the beginning stages. It is a positive message of great deeds to come.",
-        downward: "Downward, the Ace of Swords lets us know that a new intellectual endeavor will require a the querent to be very careful with his choices."
+        downward: "Downward, the Ace of Swords lets us know that a new intellectual endeavor will require the querent to be very careful with his choices."
     },
     {
         title: "Two of Swords",
@@ -446,13 +446,13 @@ const deck = [
         title: "Page of Swords",
         image: Swords11,
         upward: "The Page of Swords is a person who is intellectual and diplomatic yet may will act swiftly and has a go for it actitude.",
-        downward: "Downward, the Page of Swords may be prone to mistakes due to acting swiftly and without carefull consideration."
+        downward: "Downward, the Page of Swords may be prone to mistakes due to acting swiftly and without careful consideration."
     },
     {
         title: "Knight of Swords",
         image: Swords12,
         upward: "The Knight of Swords indicates a person that is dominate, action oriented, fast thinker. Set to accomplish his goals, is what matters the most.",
-        downward: "Downward, the Knight of Swords indicates a person that the querent should take a carefull approach to the situation as it is delicate and rushing would only cause harm."
+        downward: "Downward, the Knight of Swords indicates a person that the querent should take a careful approach to the situation as it is delicate and rushing would only cause harm."
     },
     {
         title: "Queen of Swords",
@@ -535,14 +535,14 @@ const deck = [
     {
         title: "Knight of Pentacles",
         image: Pents12,
-        upward: "The Knight of Pentacles reminds the querent of hardword, keen eye to detail, conservatism, carefullness are qualities to be embraced. Take your time to tread a path along and follow it to accomplish your goals.",
+        upward: "The Knight of Pentacles reminds the querent of hardword, keen eye to detail, conservatism, carefulness are qualities to be embraced. Take your time to tread a path along and follow it to accomplish your goals.",
         downward: "Downward, the Knight of Pentacles indicates lack of progress in work or feeling bored at the daily grind. Reasses the situation in careful detail for the next steps."
     },
     {
         title: "Queen of Pentacles",
         image: Pents13,
         upward: "The Queen of Pentacles is a sign of possesing beauty, wealth, being compassionate, independant and intelligent. The Queen is very considerate and balanced person.",
-        downward: "Downward, the Queen of Pentacles needs to strife on self reliance to be able to provider to her loved ones. There are challenges that need to be revised."
+        downward: "Downward, the Queen of Pentacles needs to strive on self reliance to be able to provider to her loved ones. There are challenges that need to be revised."
     },
     {
         title: "King of Pentacles",
