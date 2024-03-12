@@ -164,7 +164,7 @@ const deck = [
         title: "Death",
         image: Death,
         upward: "Death is not physical but more related to phases in life where you experience transformations and enter into new beginnings.",
-        downward: "Downward, Death means that there is a blockage on the querent and it is not letting go of what was even though a new phase is arriving."
+        downward: "Downward, Death means that there is a blockage on the querent and it is not letting go of what was even thought a new phase is arriving."
     },
     {
         title: "Temperance",
@@ -217,7 +217,7 @@ const deck = [
     {
         title: "Ace of Wands",
         image: Wands01,
-        upward: "The Ace of Wands confirms of the coming of a new creativety project and it is your call to action to act upon it since with effort it could be ending as a success.",
+        upward: "The Ace of Wands confirms of the coming of a new creative project and it is your call to action to act upon it since with effort it could be ending as a success.",
         downward: "Downward, the Ace of Wands indicates delays in the project. There are blockages that are affecting your motivation leaving you feeling stagnated."
     },
     {
@@ -229,7 +229,7 @@ const deck = [
     {
         title: "Three of Wands",
         image: Wands03,
-        upward: "The Three of Wands is mostly related to business projects which are on the beggining stage but have a great chance of success. It requires carefull planning and foresight to overcome the challenges ahead.",
+        upward: "The Three of Wands is mostly related to business projects which are on the beginning stage but have a great chance of success. It requires carefull planning and foresight to overcome the challenges ahead.",
         downward: "Downward, the Three of Wands informs us that the project will experience delays due to lack of planning and foresight or due to unexpected events."
     },
     {
@@ -319,7 +319,7 @@ const deck = [
     {
         title: "Four of Cups",
         image: Cups04,
-        upward: "The Four of Cups reminds us of times when it is necessary to reevaluate your current circumstances and introspect within you.",
+        upward: "The Four of Cups reminds the querent of times when it's necessary to reevaluate the current circumstances and introspect within.",
         downward: "Downward, the Four of Cups indicates that the querent is withdrawing and instead should be engaged with society."
     },
     {
@@ -392,7 +392,7 @@ const deck = [
         title: "Two of Swords",
         image: Swords02,
         upward: "The Two of Swords is a sign of difficult decisions and the querent must weight based on logic and reason. Find all the evidence and based on that make your decision.",
-        downward: "Downward, the Two of Sword is a sign of difficult decisions and the careful decision making must be follow with risk managing as the decision may not turn out as expected."
+        downward: "Downward, the Two of Sword is a sign of difficult decisions and careful decision making must be followed with risk managing as the decision may not turn out as expected."
     },
     {
         title: "Three of Swords",
@@ -427,8 +427,8 @@ const deck = [
     {
         title: "Eight of Swords",
         image: Swords08,
-        upward: "The Eight of Swords reminds us that even when we feel trapped, if we consider our options, there might be an alternative.",
-        downward: "Downward, the Eight of Swords indicates that the current situation has been solved and there no longer a feeling of being hold down."
+        upward: "The Eight of Swords reminds us that even when the querent may feel trapped, reconsider the options, there might be an alternative.",
+        downward: "Downward, the Eight of Swords indicates that the current situation has been solved and there no longer a feeling of being held down."
     },
     {
         title: "Nine of Swords",
@@ -530,7 +530,7 @@ const deck = [
         title: "Page of Pentacles",
         image: Pents11,
         upward: "The Page of Pentacles is someone very enthusiastic about scholarship, business, wealth and material posessions. Access your dreams and make them come true with all the possibilities open to you.",
-        downward: "Downward, the Page of Pentacles may indicate someone who is extremely obsessed with material wealth until the it is detrimental."
+        downward: "Downward, the Page of Pentacles may indicate someone who is extremely obsessed with material wealth until it is detrimental."
     },
     {
         title: "Knight of Pentacles",
