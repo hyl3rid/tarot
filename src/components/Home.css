@@ -40,3 +40,9 @@
 .home__play-button {
     width: min-content;
 }
+
+@media (max-width: 1024px) {
+    .home__main-app {
+        height: 100%;
+    }
+}
