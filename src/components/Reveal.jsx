@@ -104,7 +104,6 @@ function Reveal() {
             return shuffledDeck[card]
         }));
     }, [cardsSelected , shuffledDeck])
-    
     return (
         <section className="reveal">
             <div className="reveal__spreads">
@@ -143,8 +142,8 @@ function Reveal() {
                                         renderSelected[1].image, 
                                         renderSelected[1].title, 
                                         selectedReversed[1], 
-                                        cardsPositions[0], 
-                                        cardsDescriptions[0], 
+                                        cardsPositions[1], 
+                                        cardsDescriptions[1], 
                                         renderSelected[1].upward, 
                                         renderSelected[1].downward
                                     )}
@@ -159,8 +158,8 @@ function Reveal() {
                                             renderSelected[0].image, 
                                             renderSelected[0].title, 
                                             selectedReversed[0], 
-                                            cardsPositions[1], 
-                                            cardsDescriptions[1], 
+                                            cardsPositions[0], 
+                                            cardsDescriptions[0], 
                                             renderSelected[0].upward, 
                                             renderSelected[0].downward
                                         )}

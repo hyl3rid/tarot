@@ -40,6 +40,7 @@ function Deck({numberOfSelectedCards}) {
           currentCard.className = "flip-card"
           setSelectedReversed([...selectedReversed, isReversed])
         } 
+        console.log(cardsSelected.includes(index))
         if (!cardsSelected.includes(index)) {
             setCardsSelected([...cardsSelected, index])
         }
@@ -63,7 +64,8 @@ function Deck({numberOfSelectedCards}) {
 
     useEffect(() => {
         setCardsSelected([])
-    }, [setCardsSelected])
+        setSelectedReversed([])
+    }, [setCardsSelected, setSelectedReversed])
     
     useEffect(() => {
         setShuffledDeck(shuffle(deck))
@@ -80,7 +82,6 @@ function Deck({numberOfSelectedCards}) {
     }, [numberOfSelectedCards])
 
     useEffect(() => {
-        console.log(cardsSelected.length)
         if (cardsSelected.length === numberOfSelectedCards) {
             setDisableShuffle(true)
         }
@@ -114,12 +115,12 @@ function Deck({numberOfSelectedCards}) {
         </div>
         <div className="deck__button-container">
             <div onClick={disableShuffle ? () => {} : () => {
-                console.log('hji')
                     hideCards()
                     shuffle(shuffledDeck)
                     setShuffledCards(true);
                     setFlippedCards([])
                     setCardsSelected([])
+                    setReversed([])
                 }}>
                 <Button>Shuffle Cards</Button>
             </div>
