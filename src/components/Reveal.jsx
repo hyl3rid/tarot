@@ -149,7 +149,7 @@ function Reveal() {
                                     )}
                                 />
                                 </div>
-                                <div className="three-cards__card-container">
+                                <div className="three-cards__card-container three-cards__present">
                                     <img 
                                         src={renderSelected[0].image} 
                                         alt={renderSelected[0].title} 

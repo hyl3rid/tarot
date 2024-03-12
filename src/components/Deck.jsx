@@ -40,7 +40,6 @@ function Deck({numberOfSelectedCards}) {
           currentCard.className = "flip-card"
           setSelectedReversed([...selectedReversed, isReversed])
         } 
-        console.log(cardsSelected.includes(index))
         if (!cardsSelected.includes(index)) {
             setCardsSelected([...cardsSelected, index])
         }

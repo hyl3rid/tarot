@@ -335,6 +335,10 @@
         max-width: 90%;
     }
 
+    .three-cards__present {
+        order: -1;
+    }
+
 
     .celtic-cross__card {
         height: 96px;
