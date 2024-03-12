@@ -53,10 +53,10 @@ function Reveal() {
 
     useEffect(() => {
         if (threeCards) {
-            setCardsPositions(["Past Influences", "Present", "Possible Outcome"])
+            setCardsPositions(["Present", "Past Influences", "Possible Outcome"])
             setCardsDescriptions([
-                "Situations of the past that influenced the present.", 
                 "Current situation the querent consults.", 
+                "Situations of the past that influenced the present.", 
                 "One of the possible scenarios that may happen."
             ])
         } else if (celticCross) {
