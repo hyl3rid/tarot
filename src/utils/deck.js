@@ -235,8 +235,8 @@ const deck = [
     {
         title: "Four of Wands",
         image: Wands04,
-        upward: "Four of Wands shows stability and it means a milestone has been reached and you may celebrate this achievement",
-        downward: "Downwards, the Four of Wands could indicate that the person is prosperous and happy but fails to recognize it."
+        upward: "Four of Wands shows stability and it means a milestone has been reached and you may celebrate this achievement.",
+        downward: "Downwards, the Four of Wands could indicate that the querent is prosperous and happy but fails to recognize it."
     },
     {
         title: "Five of Wands",
