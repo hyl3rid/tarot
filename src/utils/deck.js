@@ -110,7 +110,7 @@ const deck = [
         title: "The Emperor",
         image: TheEmperor,
         upward: "The Emperor represents a father figure which is protective, authoritative and demands respect from others.",
-        downward: "Downward, The Emperor asks you to assess if you are being a leader or a boss and your approach to leadership."
+        downward: "Downward, The Emperor asks to assess if the querent is being a leader or a boss and the approach to leadership."
     },
     {
         title: "The Hierophant",
