@@ -122,7 +122,7 @@ const deck = [
         title: "The Lovers",
         image: TheLovers,
         upward: "The Lovers is about the right choice, about love, and doing what is ethically correct to finally not falling into temptation." ,
-        downward: "Downward, The Lovers indicates that the querent should be very careful about his choices and not falling into temptation as it may be regretted greatfully."
+        downward: "Downward, The Lovers indicates that the querent should be very careful about his choices and not fall into temptation as it may be regretted."
     },
     {
         title: "The Chariot",
