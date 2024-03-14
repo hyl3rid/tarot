@@ -193,7 +193,7 @@ const deck = [
     {
         title: "The Moon",
         image: Moon,
-        upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events are perceived. Intuition and careful decision making should be taken.",
+        upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events are perceived. Intuition and careful decision making will be the best path forward.",
         downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown or misunderstood causes. Try to be extremely cautious about the decisions taken and follow your own intuition."
     },
     {
@@ -235,7 +235,7 @@ const deck = [
     {
         title: "Four of Wands",
         image: Wands04,
-        upward: "Four of Wands shows stability and it means a milestone has been reached and you may celebrate this achievement.",
+        upward: "Four of Wands shows stability and it means a milestone has been reached and the querent may celebrate this achievement.",
         downward: "Downwards, the Four of Wands could indicate that the querent is prosperous and happy but fails to recognize it."
     },
     {
@@ -410,7 +410,7 @@ const deck = [
         title: "Five of Swords",
         image: Swords05,
         upward: "The Five of Swords appears in times when the querent had a disagreement or argument but ended up losing more even if it seems to have the advantage.",
-        downward: "Downward, the Five of Swords indicates loss of a disagreement and taken advantage off, even if the querent was correct."
+        downward: "Downward, the Five of Swords indicates loss of a disagreement and taken advantage of, even if the querent was correct."
     },
     {
         title: "Six of Swords",
@@ -440,7 +440,7 @@ const deck = [
         title: "Ten of Swords",
         image: Swords10,
         upward: "The Ten of Swords indicates that there has been treason and betrayal against the querent and the wounds are deep. The querent is someone that is making an impact on society.",
-        downward: "Downward, the Ten of Swords is a sign that the querent has been deeply hurt and betrayed. He should move on forward alone without hesitation."
+        downward: "Downward, the Ten of Swords is a sign that the querent has been deeply hurt and betrayed. The querent should move on forward alone without hesitation."
     },
     {
         title: "Page of Swords",
@@ -451,7 +451,7 @@ const deck = [
     {
         title: "Knight of Swords",
         image: Swords12,
-        upward: "The Knight of Swords indicates a person that is dominate, action oriented, fast thinker. Set to accomplish his goals, is what matters the most.",
+        upward: "The Knight of Swords indicates a person that is dominant, action oriented, fast thinker. Set to accomplish his goals, is what matters the most.",
         downward: "Downward, the Knight of Swords indicates a person that the querent should take a careful approach to the situation as it is delicate and rushing would only cause harm."
     },
     {
@@ -487,7 +487,7 @@ const deck = [
     {
         title: "Four of Pentacles",
         image: Pents04,
-        upward: "The Four of Pentacles is a sign of times when material was given more importance over non-material. The influence of the card is off someone who saves and is a miser.",
+        upward: "The Four of Pentacles is a sign of times when material was given more importance over non-material. The influence of the card is of someone who saves and is a miser.",
         downward: "Downward, the Four of Pentacles indicates that there will be difficulties related to financial concerns and that you should prepare for any unexpected event."
     },
     {
