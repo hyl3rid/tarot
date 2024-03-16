@@ -157,8 +157,8 @@ const deck = [
     {
         title: "The Hanged Man",
         image: HangedMan,
-        upward: "The Hanged man reminds us that even thought others do no agree with you, you need to hang on and believe in yourself.",
-        downward: "Downward, The Hanged Man reminds the querent that even if more believe something, it doesn't mean they are right."
+        upward: "The Hanged man reminds the querent that even though others do no agree, it's vital that you believe firmly in yourself.",
+        downward: "Downward, The Hanged Man reminds the querent that even if more believe something, it doesn't mean people is right."
     },
     {
         title: "Death",
@@ -416,7 +416,7 @@ const deck = [
         title: "Six of Swords",
         image: Swords06,
         upward: "The Six of Swords appears when it is time to move on in hope for the better. Note that there are still burdens which are carried by the querent which must be resolved to continue.",
-        downward: "Downward, the Six of Swords indication stagnation are the current stage in life and not being able to move on. You'll need to use everything at your disposicion to move on."
+        downward: "Downward, the Six of Swords is an indication of stagnation at the current stage in life and not being able to move on. You'll need to use everything at your disposicion to move on."
     },
     {
         title: "Seven of Swords",
