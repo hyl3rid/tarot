@@ -457,7 +457,7 @@ const deck = [
     {
         title: "Queen of Swords",
         image: Swords13,
-        upward: "The Queen of Swords is an intelligent, fast thinking, deterministic, secure and independant woman. She is strong because that is how life taught her to be.",
+        upward: "The Queen of Swords is an intelligent, fast thinking, deterministic, secure and independent woman. She is strong because that is how life taught her to be.",
         downward: "Downward, the Queen of Swords represents someone who is being spiteful, resentful, cruel and apathic. The emotions generally cloud the Queen's mind at time when she is hot headed."
     },
     {
@@ -541,7 +541,7 @@ const deck = [
     {
         title: "Queen of Pentacles",
         image: Pents13,
-        upward: "The Queen of Pentacles is a sign of possesing beauty, wealth, being compassionate, independant and intelligent. The Queen is very considerate and balanced person.",
+        upward: "The Queen of Pentacles is a sign of possesing beauty, wealth, being compassionate, independent and intelligent. The Queen is very considerate and balanced person.",
         downward: "Downward, the Queen of Pentacles needs to strive on self reliance to be able to provider to her loved ones. There are challenges that need to be revised."
     },
     {
