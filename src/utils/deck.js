@@ -475,7 +475,7 @@ const deck = [
     {
         title: "Two of Pentacles",
         image: Pents02,
-        upward: "The Two of Pentacles reminds us that multitasking is being at the time and it done well. You are balancing different aspects of your life in the correct way.",
+        upward: "The Two of Pentacles reminds the querent is multitasking situations in a proper manner. Balancing different aspects of life in the correct way.",
         downward: "Downward, the Two of Pentacles means that there is currently too much going on and that it's starting to get difficult to keep up with the tasks. Careful planning should be done to meet every demand."
     },
     {
