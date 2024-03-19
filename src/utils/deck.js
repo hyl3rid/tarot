@@ -104,7 +104,7 @@ const deck = [
         title: "The Empress",
         image: TheEmpress,
         upward: "The Empress represent motherhood and everything that is encompased such as joys, pleasures and abundance. It represents energy of creation.",
-        downward: "Downward, The Empress encourages you to practice self love in every aspect and recognize every effort you put in place to strive on."
+        downward: "Downward, The Empress encourages the querent to practice self love in every aspect and recognize every effort done to strive."
     },
     {
         title: "The Emperor",
@@ -151,7 +151,7 @@ const deck = [
     {
         title: "Justice",
         image: Justice,
-        upward: "Justice will bring into account your actions and it will be judged fairly without bias. This card generally involves legal matters or external factors than the querent.",
+        upward: "Justice will bring into account your actions and it will be judged fairly without bias. This card generally involves legal matters or external factors to the querent.",
         downward: "Downward, Justice wants to bring to the querents attention that the final decision on the subject in matter will feel unfair and rought."
     },
     {
@@ -193,7 +193,7 @@ const deck = [
     {
         title: "The Moon",
         image: Moon,
-        upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events are perceived. Intuition and careful decision making will be the best path forward.",
+        upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events unfold. Intuition and careful decision making will be the best path forward.",
         downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown or misunderstood causes. Try to be extremely cautious about the decisions taken and follow your own intuition."
     },
     {
