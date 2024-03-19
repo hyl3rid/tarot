@@ -127,7 +127,7 @@ const deck = [
     {
         title: "The Chariot",
         image: Chariot,
-        upward: "The Chariot tells the querent that the right path to victory. With firm and bold decision making, success will come true.",
+        upward: "The Chariot tells the querent that the right path to victory is ahead. With firm and bold decision making, success will come true.",
         downward: "Downward, The Chariot tells the querent that victory is not set to happen and that another approach should be taken to the current situation."
     },
     {
