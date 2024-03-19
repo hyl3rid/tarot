@@ -356,7 +356,7 @@ const deck = [
         title: "Ten of Cups",
         image: Cups10,
         upward: "The Ten of Cups is an indication that the querent has very strong and happy relationships. Celebrate and enjoy what you have worked so hard for.",
-        downward: "Downward, the Ten of Cups indicates that there are disagreements in his relationships making it a bit difficult, but it doesn't mean it will always be like this."
+        downward: "Downward, the Ten of Cups indicates that there are disagreements in the relationships of the querent making it a bit difficult to handle, but it doesn't mean it will always be like this."
     },
     {
         title: "Page of Cups",
