@@ -253,7 +253,7 @@ const deck = [
     {
         title: "Seven of Wands",
         image: Wands07,
-        upward: "Seven of Wands is an indication to hold your ground against all odds. That you have a envydiable position and others are willing to take it.",
+        upward: "Seven of Wands is an indication to hold your ground against all odds. That you have a position that many desire and others are willing to take it.",
         downward: "Downward, the Seven of Wands indicates that that querent should continue on the pursuit of his desires and should seek success and decisiveness."
     },
     {
