@@ -36,6 +36,8 @@ function Home() {
                 <div className="home__margin-20 home__play-button" onClick={revealModal}>
                     <Button>Play</Button>
                 </div>
+                <h2 className="home__margin-20">To see the meanings of the cards:</h2>
+                <Link to="/meanings" className="home__modal-links meaninigs__link"><Button>View Meanings</Button></Link>
                 <Modal reveal={reveal} timeout={0}>
                     <p className="modal-exit" onClick={hideModal}>X</p>
                     <h3 className="home__modal-title">Pick a Spread</h3>

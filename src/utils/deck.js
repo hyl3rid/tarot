@@ -463,8 +463,8 @@ const deck = [
     {
         title: "King of Swords",
         image: Swords14,
-        upward: "The King of Swords is a person that is very analytical and intelectual. Very firm on he way of being and expects the same from the others.",
-        downward: "Downward, the King of Swords may be not use his power in the most positive ways. He might be hurtful by being cynical or giving strong criticism."
+        upward: "The King of Swords is a person that is very analytical and intelectual. Very firm on his way of being and expects the same from the others.",
+        downward: "Downward, the King of Swords may be not use his power in the most positive ways. By using hurtful words, being cynical or giving strong criticism."
     },
     {
         title: "Ace of Pentacles",
