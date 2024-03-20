@@ -433,7 +433,7 @@ const deck = [
     {
         title: "Nine of Swords",
         image: Swords09,
-        upward: "The Nine of Swords indicates the querent that excessive worry and guilt haunts daily leaving you powerless and very undecisive.",
+        upward: "The Nine of Swords indicates the querent that excessive worry and guilt haunts daily leaving you powerless and very indecisive.",
         downward: "Downward, the Nine of Swords indicates the querent that there is healing undergoing. The darkest night have passed and you can see the light again."
     },
     {
