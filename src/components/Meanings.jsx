@@ -3,7 +3,6 @@ import "./Meanings.css"
 import { Link } from "react-router-dom";
 
 function Meanings() {
-
     const backToTop = () => {
         window.scrollTo(0, 0)
     }

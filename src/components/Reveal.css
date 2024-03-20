@@ -43,6 +43,10 @@
     padding-top: 50px;
 }
 
+.decoration-none {
+    text-decoration: none;
+}
+
 @media (hover: hover) {
     .reveal-image:hover {
         z-index: 100;

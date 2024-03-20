@@ -45,6 +45,10 @@
   transform: scaleY(-1) scaleX(-1);
 }
 
+.decoration-none {
+  text-decoration: none;
+}
+
 @media (max-width: 1024px) {
   .all_cards {
     padding: 50px 0;

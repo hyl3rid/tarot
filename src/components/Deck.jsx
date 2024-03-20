@@ -123,7 +123,7 @@ function Deck({numberOfSelectedCards}) {
                 }}>
                 <Button>Shuffle Cards</Button>
             </div>
-            <Link to={`/`} className="deck__return-home"><Button>Return Home</Button></Link>
+            <Link to={`/`} className="decoration-none deck__return-home"><Button>Return Home</Button></Link>
         </div>
 
         <Modal reveal={shuffledCards} timeout={0}>
@@ -135,7 +135,7 @@ function Deck({numberOfSelectedCards}) {
             <p onClick={hideModals} className="modal-exit">X</p>
             <p>You selected all the required cards. Let's continue to reveal the meaning!</p>
             <div className="deck__margin-20">
-                <Link to={`/reveal`} state={{ cardsSelected, selectedReversed, threeCards, celticCross, drawOne }} aria-label="Reveal Meaning of Cards">
+                <Link className="decoration-none" to={`/reveal`} state={{ cardsSelected, selectedReversed, threeCards, celticCross, drawOne }} aria-label="Reveal Meaning of Cards">
                     <Button>
                         Reveal Meaning
                     </Button>

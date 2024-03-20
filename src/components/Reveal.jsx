@@ -1,6 +1,6 @@
 
 import { useLocation, Link } from "react-router-dom";
-import { useState, useEffect, useContext } from "react"
+import { useState, useEffect, useContext, useRef } from "react"
 import './Reveal.css'
 import Button from './Button'
 import Modal from './Modal'
@@ -10,6 +10,8 @@ import { CardContext, CardDispatchContext } from "../context/CardsProvider.jsx";
 function Reveal() {
     const location = useLocation();
     let { threeCards, celticCross, drawOne } = location.state;
+
+    const summaryRef = useRef(null)
 
     const {shuffledDeck, cardsSelected, selectedReversed} = useContext(CardContext);
     const {setShuffledDeck, setCardsSelected, setSelectedReversed} = useContext(CardDispatchContext);
@@ -27,6 +29,10 @@ function Reveal() {
     const [revealSummary, setRevealSummary] = useState(false)
     const [cardsPositions, setCardsPositions] = useState([])
     const [cardsDescriptions, setCardsDescriptions] = useState([])
+
+    const backToTop = () => {
+        summaryRef.current?.scrollIntoView({ block:'start' });
+    }
     
     const revealModal = (image, title, reversed, position, description, upward, downward) => {
         setImage(image)
@@ -126,7 +132,7 @@ function Reveal() {
                             )}
                             />
                         </div>
-                        <Link to={`/`} className="reveal__return-home--draw-one" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                        <Link to={`/`} className="decoration-none reveal__return-home--draw-one" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
                     </section>
                 )}
                 {threeCards && renderSelected.length > 0 && (
@@ -186,7 +192,7 @@ function Reveal() {
                                 <div onClick={toggleModalSummary}>
                                     <Button>See Summary</Button>
                                 </div>
-                                <Link to={`/`} className="reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                                <Link to={`/`} className="decoration-none reveal__return-home--three-cards" aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
                             </div>
                         </div>
                     )}
@@ -340,7 +346,7 @@ function Reveal() {
                         <div onClick={toggleModalSummary}>
                             <Button>See Summary</Button>
                         </div>
-                        <Link to={`/`} aria-label="Click here to Return Home"><Button>Return Home</Button></Link>
+                        <Link to={`/`} aria-label="Click here to Return Home" className="decoration-none"><Button>Return Home</Button></Link>
                     </div>
                 </div>}
             </div>
@@ -365,7 +371,7 @@ function Reveal() {
             </Modal>
 
             <Modal reveal={revealSummary}>
-                <div className="reveal_modal-container">
+                <div className="reveal_modal-container" ref={summaryRef}>
                     <p onClick={toggleModalSummary} className="summary__modal-exit">X</p>
                     {cardsSelected.map((selected, index) => {
                         return (
@@ -378,7 +384,8 @@ function Reveal() {
                                 {cardsDescriptions[index] && (
                                     <p className="reveal__modal-description">{cardsDescriptions[index]}</p>
                                 )}
-                                <p>Card Meaning: {selectedReversed[index] ? shuffledDeck[selected].downward : shuffledDeck[selected].upward}</p>
+                                <p className="reveal__modal-description">Card Meaning: {selectedReversed[index] ? shuffledDeck[selected].downward : shuffledDeck[selected].upward}</p>
+                                <span className="meanings__back-top" onClick={backToTop}>Back to top</span>
                             </div>
                         )
                     })}
