@@ -67,7 +67,7 @@ function Deck({numberOfSelectedCards}) {
     }, [setCardsSelected, setSelectedReversed])
     
     useEffect(() => {
-        setShuffledDeck(shuffle(deck))
+        setShuffledDeck(shuffle([...deck]))
     }, [shuffle, setShuffledDeck])
 
     useEffect(() => {
