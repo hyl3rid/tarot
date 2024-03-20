@@ -283,7 +283,7 @@ const deck = [
     {
         title: "Knight of Wands",
         image: Wands12,
-        upward: "The Knight of Wands is corageous, energetic, competitive person who at time may be wrong by his impulsivitity.",
+        upward: "The Knight of Wands is corageous, energetic, competitive person who at time may be wrong by his impulsivity.",
         downward: "Downward, the Knight of Wands indicates that there is a lack of security and that the person should take the time to restore his confidence."
     },
     {
