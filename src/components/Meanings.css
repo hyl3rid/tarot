@@ -35,3 +35,7 @@
 .meanings__back-top {
     cursor: pointer;
 }
+
+.meanings__back-top:hover {
+    color: #23c433;
+}
