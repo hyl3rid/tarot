@@ -217,7 +217,7 @@ const deck = [
     {
         title: "Ace of Wands",
         image: Wands01,
-        upward: "The Ace of Wands confirms of the coming of a new creative project and it is your call to action to act upon it since with effort it could be ending as a success.",
+        upward: "The Ace of Wands confirms the coming of a new creative project and it is your call to action to act upon it since with effort it could be ending as a success.",
         downward: "Downward, the Ace of Wands indicates delays in the project. There are blockages that are affecting your motivation leaving you feeling stagnated."
     },
     {
