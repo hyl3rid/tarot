@@ -45,4 +45,8 @@
     .home__main-app {
         height: 100%;
     }
+
+    .home__play-button {
+        width: 100%;
+    }
 }
