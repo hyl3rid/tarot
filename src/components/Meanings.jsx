@@ -12,7 +12,9 @@ function Meanings() {
         <h1 className="meanings__title" id="beginning">Meanings of the Tarot cards</h1>
         <p className="meanings__text">Below are the descriptions of the different meanings for each card in the Major Arcana and Minor Arcana.</p>
         <div className="meanings__text">
-            <Link to={`/`} className="meanings__links" aria-label="Click here to Return Home">Return Home</Link>
+            <div className="meanings__title">
+                <Link to={`/`} className="meanings__links" aria-label="Click here to Return Home">Return Home</Link>
+            </div>
             <ul>
                 {deck.map((card,index) => {
                     return (
