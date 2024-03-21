@@ -325,8 +325,8 @@ const deck = [
     {
         title: "Five of Cups",
         image: Cups05,
-        upward: "The Five of Cups is a reminder that even in the event of loss and regret that are still other options available waiting for you, they just need to be found.",
-        downward: "Downward, the Five of Cups is sign that loss and regret is greatly affecting the querent and he should look forward to make amends with the past."
+        upward: "The Five of Cups is a reminder that even in the event of loss and regret, there are still other options available waiting for you, they just need to be found.",
+        downward: "Downward, the Five of Cups is sign that loss and regret is greatly affecting the querent and making amends with the past is recommended."
     },
     {
         title: "Six of Cups",
