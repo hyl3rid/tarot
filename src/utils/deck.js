@@ -158,7 +158,7 @@ const deck = [
         title: "The Hanged Man",
         image: HangedMan,
         upward: "The Hanged man reminds the querent that even though others do no agree, it's vital that you believe firmly in yourself.",
-        downward: "Downward, The Hanged Man reminds the querent that even if more believe something, it doesn't mean people is right."
+        downward: "Downward, The Hanged Man reminds the querent that even if more believe something, it doesn't mean most are following the highest good."
     },
     {
         title: "Death",
