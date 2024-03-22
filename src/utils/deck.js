@@ -199,8 +199,8 @@ const deck = [
     {
         title: "The Sun",
         image: Sun,
-        upward: "The Sun is a confirmation that the querent will attain success, glory and delight in his journey. Your happiness and strength lays the foundation to hold any struggle the universe may throw at your way.",
-        downward: "Downward, The Sun is an indication that there are setbacks that may have affected you emotionally and you should take care of the things that you value the most."
+        upward: "The Sun is a confirmation that the querent will attain success, glory and delight in his journey. Happiness and strength lays the foundation to hold any struggle the universe may throw at your way.",
+        downward: "Downward, The Sun is an indication that there are setbacks that may have affected the querent emotionally and taking care of the things that you value the most is very important."
     },
     {
         title: "Judgement",
