@@ -427,8 +427,8 @@ const deck = [
     {
         title: "Eight of Swords",
         image: Swords08,
-        upward: "The Eight of Swords reminds us that even when the querent may feel trapped, reconsider the options, there might be an alternative.",
-        downward: "Downward, the Eight of Swords indicates that the current situation has been solved and there no longer a feeling of being held down."
+        upward: "The Eight of Swords reminds the querent that even if there is a sense of being trapped, reconsidering all the options might allow the use of an alternative.",
+        downward: "Downward, the Eight of Swords indicates that a difficult situation has been solved and there is no longer a feeling of being held down."
     },
     {
         title: "Nine of Swords",
