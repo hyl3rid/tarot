@@ -331,7 +331,7 @@ const deck = [
     {
         title: "Six of Cups",
         image: Cups06,
-        upward: "The Six of Cups is a card that reminds us of past times that bring nostalgia. Feel free to revisit those past memories and take the best out of them.",
+        upward: "The Six of Cups is a card that reminds the querent of past times that bring nostalgia. Feel free to revisit those past memories and take the best out of them.",
         downward: "Downward, the Six of Cups wants to inform the querent that while feeling a bit of nostalgia for the past is fine, getting overwhelmed and affected is not. Avoid clinging to the past and be ready to move on."
     },
     {
