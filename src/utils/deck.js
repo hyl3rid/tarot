@@ -133,8 +133,8 @@ const deck = [
     {
         title: "Strength",
         image: Strength,
-        upward: "Strength reminds us that force is not required to do one's will, compassion and patience may just be stronger and more effective.",
-        downward: "Downward, Strength reminds us to not use force and use compassion, patience, fortitude instead as it will be more effective and not be overwhelmed. "
+        upward: "Strength reminds the querent that force is not required to do one's will, compassion and patience may just be stronger and more effective.",
+        downward: "Downward, Strength reminds the querent to not use force and use compassion, patience, fortitude instead since it will be more effective. "
     },
     {
         title: "The Hermit",
