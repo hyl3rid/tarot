@@ -278,7 +278,7 @@ const deck = [
         title: "Page of Wands",
         image: Wands11,
         upward: "The Page of Wands is full of creative, ethusiastic and passitonate energy which is around the querent. It indicates a strong driving force to create and learn about everything.",
-        downward: "Downward, the Page of Wands indicates that there are blockages in creativity and enthusiasm and the querent should consider the possible causes for the lack of progress in exploring different areas."
+        downward: "Downward, the Page of Wands indicates that there are blockages in creativity and enthusiasm. The querent should consider the possible causes for the lack of progress in exploring different areas."
     },
     {
         title: "Knight of Wands",
