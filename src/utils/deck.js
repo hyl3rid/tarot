@@ -85,7 +85,7 @@ const deck = [
     {
         title: "The Fool",
         image: Fool,
-        upward: "The Fool represents new beginnings, positivism, being naive and a free spirit. He reminds us that things don't have to be the same always.",
+        upward: "The Fool represents new beginnings, positivism, being naive and a free spirit. It's a reminder to break the routine from day to day.",
         downward: "Downward, the Fool can represent new beginnings but avoid being reckless and careless as there may be difficulties on the path."
     },
     {
