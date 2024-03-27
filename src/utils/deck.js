@@ -271,8 +271,8 @@ const deck = [
     {
         title: "Ten of Wands",
         image: Wands10,
-        upward: "The Ten of Wands reminds us of time when the responsabilities and the burdens were too many that the path was not even visible yet it doesn't mean that the querent wont be able to complete his tasks.",
-        downward: "Downward, the Ten of Wands reminds us that the responsabilities and burdens are starting to take a toll and the situation should be re-assess to avoid exhaustion."
+        upward: "The Ten of Wands reminds us of times when the responsabilities and the burdens were too many that the path was not even visible yet it doesn't mean that the querent wont be able to complete his tasks.",
+        downward: "Downward, the Ten of Wands reminds the querent that the responsabilities and burdens are starting to take a toll and the situation should be re-assess to avoid exhaustion."
     },
     {
         title: "Page of Wands",
