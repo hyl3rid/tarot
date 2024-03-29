@@ -230,7 +230,7 @@ const deck = [
         title: "Three of Wands",
         image: Wands03,
         upward: "The Three of Wands is mostly related to business projects which are on the beginning stage but have a great chance of success. It requires careful planning and foresight to overcome the challenges ahead.",
-        downward: "Downward, the Three of Wands informs us that the project will experience delays due to lack of planning and foresight or due to unexpected events."
+        downward: "Downward, the Three of Wands informs the querent that the project will experience delays due to lack of planning and foresight or due to unexpected events."
     },
     {
         title: "Four of Wands",
