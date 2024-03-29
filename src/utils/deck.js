@@ -542,7 +542,7 @@ const deck = [
         title: "Queen of Pentacles",
         image: Pents13,
         upward: "The Queen of Pentacles is a sign of possesing beauty, wealth, being compassionate, independent and intelligent. The Queen is very considerate and balanced person.",
-        downward: "Downward, the Queen of Pentacles needs to strive on self reliance to be able to provider to her loved ones. There are challenges that need to be revised."
+        downward: "Downward, the Queen of Pentacles needs to strive on self reliance to be a provider for her loved ones. There are challenges that need to be revised."
     },
     {
         title: "King of Pentacles",
