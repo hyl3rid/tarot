@@ -1,5 +1,5 @@
 
-import { useLocation, Link } from "react-router-dom";
+import { useLocation, Link, useNavigate } from "react-router-dom";
 import { useState, useEffect, useContext, useRef } from "react"
 import './Reveal.css'
 import Button from './Button'
@@ -12,6 +12,8 @@ function Reveal() {
     let { threeCards, celticCross, drawOne } = location.state;
 
     const summaryRef = useRef(null)
+
+    let navigate = useNavigate();
 
     const {shuffledDeck, cardsSelected, selectedReversed} = useContext(CardContext);
     const {setShuffledDeck, setCardsSelected, setSelectedReversed} = useContext(CardDispatchContext);
@@ -101,9 +103,11 @@ function Reveal() {
             setShuffledDeck(shuffled)
             setCardsSelected(cards)
             setSelectedReversed(selected)
+        } else {
+            navigate('/', { replace: true });
         }
 
-    }, [ setCardsSelected, setSelectedReversed, setShuffledDeck ]);
+    }, [ setCardsSelected, setSelectedReversed, setShuffledDeck, navigate ]);
 
     useEffect(() => {
         setRenderSelected(cardsSelected.map((card) => {
