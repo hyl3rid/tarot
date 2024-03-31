@@ -92,31 +92,31 @@ const deck = [
         title: "The Magician",
         image: Magician,
         upward: "The Magician represents the master of manifestation. You are ready to make your dreams come true as you are now equipped with everything in your power to manifest your desires.",
-        downward: "Downward, the Magician has all in his power to destroy and unmanifest achievements, but not in an evil manner but may just bring positive change."
+        downward: "Downward, the Magician has all in his power to destroy achievements, but not in an evil manner but may just bring positive change."
     },
     {
         title: "High Priestess",
         image: HighPriestess,
-        upward: "The High Priestess asks you to access you inner wisdom and meditate. Take some time to access this inner knowledge.",
+        upward: "The High Priestess asks the querent to meditate and this way access inner wisdom. Take some time to access this inner knowledge.",
         downward: "Downward, The High Priestess tells you that you are not aligned with your inner wisdom and not listening. You just need to meditate to access this inner knowledge, so take some time."
     },
     {
         title: "The Empress",
         image: TheEmpress,
-        upward: "The Empress represent motherhood and everything that is encompased such as joys, pleasures and abundance. It represents energy of creation.",
-        downward: "Downward, The Empress encourages the querent to practice self love in every aspect and recognize every effort done to strive."
+        upward: "The Empress represents motherhood and everything that is encompassed, such as joys, pleasures, and abundance. It represents the energy of creation.",
+        downward: "Downward, the Empress encourages the querent to practice self-love in every aspect and recognize every effort made to strive."
     },
     {
         title: "The Emperor",
         image: TheEmperor,
-        upward: "The Emperor represents a father figure which is protective, authoritative and demands respect from others.",
-        downward: "Downward, The Emperor asks to assess if the querent is being a leader or a boss and the approach to leadership."
+        upward: "The Emperor represents a father figure who is protective, authoritative, and demands respect from others.",
+        downward: "Downward, the Emperor asks to assess if the querent is a leader or a boss and the approach to leadership."
     },
     {
         title: "The Hierophant",
         image: Hierophant,
-        upward: "The Hierophant represent the norm, traditional and what is stablished. It conforms to the status quo and follows it. Generally related to institutions such as the orthodox church.",
-        downward: "Downward, it reminds us about free and bohemian lifestyles which don't follow the norm or what is expected and in some cases very independent from the standards of society."
+        upward: "The Hierophant represents the norm, the traditional, and what is established. It conforms to the status quo and follows it. Generally related to institutions such as the orthodox church.",
+        downward: "Downward, the Hierophant reminds the querent about free and bohemian lifestyles that don't follow the norm or what is expected and, in some cases, are very independent from the standards of society."
     },
     {
         title: "The Lovers",
