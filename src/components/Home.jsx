@@ -27,12 +27,6 @@ function Home() {
                     <li>Celtic Cross</li>
                     <li>Draw one card</li>
                 </ul>
-                <p className="home__margin-20">Following are the ones that will be added in the future:</p>
-                <ul>
-                    <li>Pick the top card</li>
-                    <li>Two Cards</li>
-                    <li>Pick from the Major Arcana only</li>
-                </ul>
                 <div className="home__margin-20 home__play-button" onClick={revealModal}>
                     <Button>Play</Button>
                 </div>
