@@ -98,7 +98,7 @@ const deck = [
         title: "High Priestess",
         image: HighPriestess,
         upward: "The High Priestess asks the querent to meditate and this way access inner wisdom. Take some time to access this inner knowledge.",
-        downward: "Downward, The High Priestess tells you that you are not aligned with your inner wisdom and not listening. You just need to meditate to access this inner knowledge, so take some time."
+        downward: "Downward, The High Priestess tells you that you are not aligned with your inner wisdom and not listening. Meditation is encouraged to access this inner knowledge."
     },
     {
         title: "The Empress",
