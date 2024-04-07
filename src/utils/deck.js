@@ -290,7 +290,7 @@ const deck = [
         title: "Queen of Wands",
         image: Wands13,
         upward: "The Queen of Wands is attractive, spontaneous, versatile, energetic and grounded women ready for the pursuit of creativity.",
-        downward: "Downward, the Queen of Wands may indicate the querent is are lacking confidence and should strive to build it up to continue with the objectives at hand."
+        downward: "Downward, the Queen of Wands may indicate the querent is lacking confidence and should strive to build it up to continue with the objectives at hand."
     },
     {
         title: "King of Wands",
