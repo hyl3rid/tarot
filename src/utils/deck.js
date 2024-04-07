@@ -518,7 +518,7 @@ const deck = [
         title: "Nine of Pentacles",
         image: Pents09,
         upward: "The Nine of Pentacles pertains to financial success and independence. The querent is free to enjoy luxuries, time off and other benefits that are available.",
-        downward: "Downward, the Nine of Pentacles can indicate that the querent is not satisfied with the status quo even after a lot has been achieved at this stage."
+        downward: "Downward, the Nine of Pentacles indicates that the querent is not satisfied with the status quo even after a lot has been achieved at this stage."
     },
     {
         title: "Ten of Pentacles",
