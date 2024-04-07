@@ -308,7 +308,7 @@ const deck = [
         title: "Two of Cups",
         image: Cups02,
         upward: "The Two of Cups is an indication of emotional compatibility and strong bonds. It could represent a job, relationship or a friendship.",
-        downward: "Downward, the Two of Cups asks us to work any misunderstandings as they may just be temporary but could affect your bonds either at work, socially or in love."
+        downward: "Downward, the Two of Cups asks the querent to work any misunderstandings as they may just be temporary but could affect your bonds either at work, socially or in love."
     },
     {
         title: "Three of Cups",
