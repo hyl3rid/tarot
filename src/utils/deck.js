@@ -337,7 +337,7 @@ const deck = [
     {
         title: "Seven of Cups",
         image: Cups07,
-        upward: "The Seven of Cups depics wishful thinking and having many options but consider them carefully as they may not appear what they are at first.",
+        upward: "The Seven of Cups depicts wishful thinking and having many options but consider them carefully as they may not appear what they are at first.",
         downward: "Downward, the Seven of Cups tells that the correct decision has been made even amongst all the options that were available."
     },
     {
