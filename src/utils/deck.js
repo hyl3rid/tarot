@@ -523,8 +523,8 @@ const deck = [
     {
         title: "Ten of Pentacles",
         image: Pents10,
-        upward: "The Ten of Pentacles wants to bring to your attention that you have achieve the pinnacle of success. With your hard work you've obtain wealth and family members.",
-        downward: "Downward, the Ten of Pentacles wants to let you know that there are finalcial and family challenges lurking around."
+        upward: "The Ten of Pentacles wants to bring to your attention that you have achieve the pinnacle of success. With your hard work you've obtained wealth and family members.",
+        downward: "Downward, the Ten of Pentacles wants to let you know that there are financial and family challenges lurking around."
     },
     {
         title: "Page of Pentacles",
