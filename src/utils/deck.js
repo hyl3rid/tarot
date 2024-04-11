@@ -116,18 +116,18 @@ const deck = [
         title: "The Hierophant",
         image: Hierophant,
         upward: "The Hierophant represents the norm, the traditional, and what is established. It conforms to the status quo and follows it. Generally related to institutions such as the orthodox church.",
-        downward: "Downward, the Hierophant reminds the querent about free and bohemian lifestyles that don't follow the norm or what is expected and, in some cases, are very independent from the standards of society."
+        downward: "Downward, the Hierophant reminds the querent about free and bohemian lifestyles that don't follow the norm or what is expected and, in some cases, are very independent of the standards of society."
     },
     {
         title: "The Lovers",
         image: TheLovers,
-        upward: "The Lovers is about the right choice, about love, and doing what is ethically correct to finally not falling into temptation." ,
+        upward: "The Lovers is about the right choice, about love, and doing what is ethically correct to finally not falling into temptation.",
         downward: "Downward, The Lovers indicates that the querent should be very careful about his choices and not fall into temptation as it may be regretted."
     },
     {
         title: "The Chariot",
         image: Chariot,
-        upward: "The Chariot tells the querent that the right path to victory is ahead. With firm and bold decision making, success will come true.",
+        upward: "The Chariot tells the querent that the right path to victory is ahead. With firm and bold decision-making, success will come true.",
         downward: "Downward, The Chariot tells the querent that victory is not set to happen and that another approach should be taken to the current situation."
     },
     {
@@ -139,8 +139,8 @@ const deck = [
     {
         title: "The Hermit",
         image: Hermit,
-        upward: "The Hermit is a guide who has taken the path of solitude and has reached enlightment throught it. Consider his advice accurate as he knows from within and is very spiritual.",
-        downward: "Downward, The Hermit indicates that there is a lack of progress spiritually either by isolating too much or not spending enought time in meditation."
+        upward: "The Hermit is a guide who has taken the path of solitude and has reached enlightenment through it. Consider his advice accurate as he knows from within and is very spiritual.",
+        downward: "Downward, The Hermit indicates that there is a lack of progress spiritually either by isolating too much or not spending enough time in meditation."
     },
     {
         title: "The Wheel of Fortune",
@@ -176,7 +176,7 @@ const deck = [
         title: "The Devil",
         image: Devil,
         upward: "The Devil is an omen that the querent is being affected by negativity in any form, which could be temptations, your dark side, and anything that keeps you from being the best version.",
-        downward: "Downward, The Devil is an omen that a negative cycle has been released and the querent has come to the realization of a new paradigms."
+        downward: "Downward, The Devil is an omen that a negative cycle has been released and the querent has come to the realization of a new paradigm."
     },
     {
         title: "The Tower",
@@ -188,24 +188,24 @@ const deck = [
         title: "The Star",
         image: Star,
         upward: "The Star is reminding the querent about hope and optimism, that things will turn out right even if the situation has been difficult to navigate.",
-        downward: "Downward, The Star means that the querent can be more optimistic and that hope has been lost. If things are tought right now, be sure there are reasons for which to be optimistic"
+        downward: "Downward, The Star means that the querent can be more optimistic and that hope has been lost. If things are tough right now, be sure there are reasons for which to be optimistic"
     },
     {
         title: "The Moon",
         image: Moon,
-        upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events unfold. Intuition and careful decision making will be the best path forward.",
+        upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events unfold. Intuition and careful decision-making will be the best path forward.",
         downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown or misunderstood causes. Try to be extremely cautious about the decisions taken and follow your intuition."
     },
     {
         title: "The Sun",
         image: Sun,
-        upward: "The Sun is a confirmation that the querent will attain success, glory and delight in his journey. Happiness and strength lays the foundation to hold any struggle the universe may throw at your way.",
+        upward: "The Sun is a confirmation that the querent will attain success, glory, and delight in his journey. Happiness and strength lay the foundation to hold any struggle the universe may throw at your way.",
         downward: "Downward, The Sun is an indication that there are setbacks that may have affected the querent emotionally and taking care of the things that you value the most is very important."
     },
     {
         title: "Judgement",
         image: Judgement,
-        upward: "Judgement is a confirmation to the querent that a higher good is set for the person to accomplish following your own intuition.",
+        upward: "Judgement is a confirmation to the querent that a higher good is set for the person to accomplish following your intuition.",
         downward: "Downward, Judgement indicates that the querent has failed to follow the highest good and should reconsider carefully the next steps."
     },
     {
@@ -217,7 +217,7 @@ const deck = [
     {
         title: "Ace of Wands",
         image: Wands01,
-        upward: "The Ace of Wands confirms the coming of a new creative project and it is your call to action to act upon it since with effort it could be ending as a success.",
+        upward: "The Ace of Wands confirms the coming of a new creative project and it is your call to action to act upon it since with effort it could end as a success.",
         downward: "Downward, the Ace of Wands indicates delays in the project. There are blockages that are affecting your motivation leaving you feeling stagnated."
     },
     {
@@ -392,7 +392,7 @@ const deck = [
         title: "Two of Swords",
         image: Swords02,
         upward: "The Two of Swords is a sign of difficult decisions and the querent must weight based on logic and reason. Find all the evidence and based on that make your decision.",
-        downward: "Downward, the Two of Sword is a sign of difficult decisions and careful decision making must be followed with risk managing as the decision may not turn out as expected."
+        downward: "Downward, the Two of Sword is a sign of difficult decisions and careful decision-making must be followed with risk managing as the decision may not turn out as expected."
     },
     {
         title: "Three of Swords",
