@@ -104,7 +104,7 @@ const deck = [
         title: "The Empress",
         image: TheEmpress,
         upward: "The Empress represents motherhood and everything that is encompassed, such as joys, pleasures, and abundance. It represents the energy of creation.",
-        downward: "Downward, the Empress encourages the querent to practice self-love in every aspect and recognize every effort made to strive."
+        downward: "Downward, the Empress encourages the querent to practice self-love in every aspect and recognizes every effort made to strive."
     },
     {
         title: "The Emperor",
@@ -403,8 +403,8 @@ const deck = [
     {
         title: "Four of Swords",
         image: Swords04,
-        upward: "The Four of Swords is an omen that the querent needs to rest to take time to recover from stress to prepare for what is to come.",
-        downward: "Downward, the Four of Swords means being burnout and completely stressed. That you need to take a break seriously since its taking a toll on your health because of stress."
+        upward: "The Four of Swords is an omen that the querent needs to rest. Take some time to recover from stress and prepare for what is to come.",
+        downward: "Downward, the Four of Swords reminds the querent of situations that cause burnout and complete stress. It's important to consider taking a break since it's taking a toll on the health due to stress."
     },
     {
         title: "Five of Swords",
