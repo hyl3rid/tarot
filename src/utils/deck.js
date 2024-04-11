@@ -169,20 +169,20 @@ const deck = [
     {
         title: "Temperance",
         image: Temperance,
-        upward: "Temperance asks the querent to embrace balance and look for way to access different levels of conciousness.",
-        downward: "Downward, Temperance is a clear sign that there is imbalance in the querents situation and careful measures should be taken to address the issue.",
+        upward: "Temperance asks the querent to embrace balance and look for a way to access different levels of consciousness.",
+        downward: "Downward, Temperance is a clear sign that there is an imbalance in the querents situation and careful measures should be taken to address the issue.",
     },
     {
         title: "The Devil",
         image: Devil,
-        upward: "The Devil is an omen that the querent is being affected by negativity in any form, could be temptations, your dark side and anything that keeps you from being the best version.",
-        downward: "Downward, The Devil is an omen that a negative cycle has been released and the querent has come to realization of a new paradigms."
+        upward: "The Devil is an omen that the querent is being affected by negativity in any form, which could be temptations, your dark side, and anything that keeps you from being the best version.",
+        downward: "Downward, The Devil is an omen that a negative cycle has been released and the querent has come to the realization of a new paradigms."
     },
     {
         title: "The Tower",
         image: Tower,
-        upward: "The Tower is an omen that the unexpected will happen and there will be upheavel and confusion but it is because the foundations are not solid.",
-        downward: "Downward, The Tower is an omen that the querent will continue on the same path as before even after there has been upheavel and destruction."
+        upward: "The Tower is an omen that the unexpected will happen and there will be upheaval and confusion but it is because the foundations are not solid.",
+        downward: "Downward, The Tower is an omen that the querent will continue on the same path as before even after there has been upheaval and destruction."
     },
     {
         title: "The Star",
@@ -194,7 +194,7 @@ const deck = [
         title: "The Moon",
         image: Moon,
         upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events unfold. Intuition and careful decision making will be the best path forward.",
-        downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown or misunderstood causes. Try to be extremely cautious about the decisions taken and follow your own intuition."
+        downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown or misunderstood causes. Try to be extremely cautious about the decisions taken and follow your intuition."
     },
     {
         title: "The Sun",
@@ -271,8 +271,8 @@ const deck = [
     {
         title: "Ten of Wands",
         image: Wands10,
-        upward: "The Ten of Wands reminds us of times when the responsabilities and the burdens were too many that the path was not even visible yet it doesn't mean that the querent wont be able to complete his tasks.",
-        downward: "Downward, the Ten of Wands reminds the querent that the responsabilities and burdens are starting to take a toll and the situation should be re-assess to avoid exhaustion."
+        upward: "The Ten of Wands reminds us of times when the responsibilities and the burdens were too many that the path was not even visible yet it doesn't mean that the querent won't be able to complete his tasks.",
+        downward: "Downward, the Ten of Wands reminds the querent that the responsibilities and burdens are starting to take a toll and the situation should be re-assess to avoid exhaustion."
     },
     {
         title: "Page of Wands",
