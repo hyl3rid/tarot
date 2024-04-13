@@ -218,7 +218,7 @@ const deck = [
         title: "Ace of Wands",
         image: Wands01,
         upward: "The Ace of Wands confirms the coming of a new creative project and it is your call to action to act upon it since with effort it could end as a success.",
-        downward: "Downward, the Ace of Wands indicates delays in the project. There are blockages that are affecting your motivation leaving you feeling stagnated."
+        downward: "Downward, the Ace of Wands indicates delays in the project. Some blockages that are affecting your motivation leaving you feeling stagnated."
     },
     {
         title: "Two of Wands",
@@ -229,7 +229,7 @@ const deck = [
     {
         title: "Three of Wands",
         image: Wands03,
-        upward: "The Three of Wands is mostly related to business projects which are on the beginning stage but have a great chance of success. It requires careful planning and foresight to overcome the challenges ahead.",
+        upward: "The Three of Wands is mostly related to business projects which are in the beginning stage but have a great chance of success. It requires careful planning and foresight to overcome the challenges ahead.",
         downward: "Downward, the Three of Wands informs the querent that the project will experience delays due to lack of planning and foresight or due to unexpected events."
     },
     {
@@ -241,7 +241,7 @@ const deck = [
     {
         title: "Five of Wands",
         image: Wands05,
-        upward: "The Five of Wand appears when there are times of fighting and a lot of competition in a group. This may be channelled by listen to the opinion each has to offer and come to a middle ground.",
+        upward: "The Five of Wand appears when there are times of fighting and a lot of competition in a group. This may be channeled by listening to the opinion each has to offer and come to a middle ground.",
         downward: "Downward, the Five of Wands indicates that times of fighting and competition have passed, there is reconciliation."
     },
     {
@@ -271,31 +271,31 @@ const deck = [
     {
         title: "Ten of Wands",
         image: Wands10,
-        upward: "The Ten of Wands reminds us of times when the responsibilities and the burdens were too many that the path was not even visible yet it doesn't mean that the querent won't be able to complete his tasks.",
+        upward: "The Ten of Wands reminds the querent of times when the responsibilities and the burdens were so many that the path in front is not even visible, yet it doesn't mean that the tasks won't be finished.",
         downward: "Downward, the Ten of Wands reminds the querent that the responsibilities and burdens are starting to take a toll and the situation should be re-assess to avoid exhaustion."
     },
     {
         title: "Page of Wands",
         image: Wands11,
-        upward: "The Page of Wands is full of creative, ethusiastic and passitonate energy which is around the querent. It indicates a strong driving force to create and learn about everything.",
+        upward: "The Page of Wands is full of creative, enthusiastic and passitonate energy which is around the querent. It indicates a strong driving force to create and learn about everything.",
         downward: "Downward, the Page of Wands indicates that there are blockages in creativity and enthusiasm. The querent should consider the possible causes for the lack of progress in exploring different areas."
     },
     {
         title: "Knight of Wands",
         image: Wands12,
-        upward: "The Knight of Wands is corageous, energetic, competitive person who at time may be wrong by his impulsivity.",
+        upward: "The Knight of Wands is a courageous, energetic, competitive person who at times may be wrong by his impulsivity.",
         downward: "Downward, the Knight of Wands indicates that there is a lack of security and that the person should take the time to restore his confidence."
     },
     {
         title: "Queen of Wands",
         image: Wands13,
-        upward: "The Queen of Wands is attractive, spontaneous, versatile, energetic and grounded women ready for the pursuit of creativity.",
+        upward: "The Queen of Wands is an attractive, spontaneous, versatile, energetic and grounded woman ready for the pursuit of creativity.",
         downward: "Downward, the Queen of Wands may indicate the querent is lacking confidence and should strive to build it up to continue with the objectives at hand."
     },
     {
         title: "King of Wands",
         image: Wands14,
-        upward: "The King of Wands is a very secure, natural born leader in the field of creativity with fiery will, passionate, good hearted but impulsive at times.",
+        upward: "The King of Wands is a very secure, natural born leader in the field of creativity with a fiery will, passionate, good-hearted but impulsive at times.",
         downward: "Downward, the King of Wands is a person who is in the position of a leader in the creative field but he is being unjust and aggressive."
     },
     {
@@ -523,7 +523,7 @@ const deck = [
     {
         title: "Ten of Pentacles",
         image: Pents10,
-        upward: "The Ten of Pentacles wants to bring to your attention that you have achieve the pinnacle of success. With your hard work you've obtained wealth and family members.",
+        upward: "The Ten of Pentacles wants to bring to your attention that you have achieved the pinnacle of success. With your hard work you've obtained wealth and family members.",
         downward: "Downward, the Ten of Pentacles wants to let you know that there are financial and family challenges lurking around."
     },
     {
