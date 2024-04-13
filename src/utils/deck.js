@@ -164,7 +164,7 @@ const deck = [
         title: "Death",
         image: Death,
         upward: "Death is not physical but more related to phases in life where you experience transformations and enter into new beginnings.",
-        downward: "Downward, Death means that there is a blockage on the querent and it is not letting go of what was even thought a new phase is arriving."
+        downward: "Downward, Death means that there is a blockage on the querent and it is not letting go of what was even though a new phase is arriving."
     },
     {
         title: "Temperance",
