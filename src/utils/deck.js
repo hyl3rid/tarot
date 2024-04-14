@@ -260,7 +260,7 @@ const deck = [
         title: "Eight of Wands",
         image: Wands08,
         upward: "The Eight of Wands appears when the moment is now, it is now the time to take action and move forward with the plan or project in question.",
-        downward: "Downward, the Eight of Wands appears when the querent should slow down and review the options carefully as there might some details missing to continue. "
+        downward: "Downward, the Eight of Wands appears when the querent should slow down and review the options carefully as there might be some details missing to continue. "
     },
     {
         title: "Nine of Wands",
