@@ -361,7 +361,7 @@ const deck = [
     {
         title: "Page of Cups",
         image: Cups11,
-        upward: "The Page of Cups invtes you to be open to new oportunities and embrace creativity.",
+        upward: "The Page of Cups invites you to be open to new opportunities and embrace creativity.",
         downward: "Downward, the Page of Cups means that the person is emotionally immature. The person also suffers from unrealistics expectations."
     },
     {
