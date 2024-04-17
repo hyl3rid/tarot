@@ -265,8 +265,8 @@ const deck = [
     {
         title: "Nine of Wands",
         image: Wands09,
-        upward: "The Nine of Wands represents a character who has had a lot of fights and is wounded but is not willing to give anything up. But you want this fight to be endless?.",
-        downward: "Downward, the Nine of Wands indicates that the character has fought until exhaustion and is no longer able to protect what he considered his own."
+        upward: "The Nine of Wands represents the querent who has had a lot of fights and is wounded but is not willing to give anything up. But do you want this fight to be endless?.",
+        downward: "Downward, the Nine of Wands indicates that the querent has fought until exhaustion but is no longer able to protect what was considered his own."
     },
     {
         title: "Ten of Wands",
