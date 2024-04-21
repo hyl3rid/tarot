@@ -151,8 +151,8 @@ const deck = [
     {
         title: "Justice",
         image: Justice,
-        upward: "Justice will bring into account your actions and it will be judged fairly without bias. This card generally involves legal matters or external factors to the querent.",
-        downward: "Downward, Justice wants to bring to the querents attention that the final decision on the subject in the matter will feel unfair and rough."
+        upward: "Justice will bring into account the querent's actions and it will be judged fairly without bias. This card generally involves legal matters or external factors to the querent.",
+        downward: "Downward, Justice wants to bring to the querent's attention that the final decision on the subject in the matter will feel unfair and rough."
     },
     {
         title: "The Hanged Man",
@@ -170,7 +170,7 @@ const deck = [
         title: "Temperance",
         image: Temperance,
         upward: "Temperance asks the querent to embrace balance and look for a way to access different levels of consciousness.",
-        downward: "Downward, Temperance is a clear sign that there is an imbalance in the querents situation and careful measures should be taken to address the issue.",
+        downward: "Downward, Temperance is a clear sign that there is an imbalance in the querent's situation and careful measures should be taken to address the issue.",
     },
     {
         title: "The Devil",
@@ -223,7 +223,7 @@ const deck = [
     {
         title: "Two of Wands",
         image: Wands02,
-        upward: "The Two of Wands brings to the querents attention the desire to explore new horizons and venture into new ways.",
+        upward: "The Two of Wands brings to the querent's attention the desire to explore new horizons and venture into new ways.",
         downward: "Downward, the Two of Wands suggests that the querent is not seeing the progress he expects. Yet take time to explore your options and make a fitting plan."
     },
     {
@@ -344,7 +344,7 @@ const deck = [
         title: "Eight of Cups",
         image: Cups08,
         upward: "The Eight of Cups brings to attention that the querent has put good effort on certain aspect of his life but resulted unfulfilling thus leaving the project behind.",
-        downward: "Downward, the Eight of Cups reminds you that you are drifting aimlessly. It may be time to find a place to stay for a while."
+        downward: "Downward, the Eight of Cups reminds the querent of drifting aimlessly. It may be time to find a place to stay for a while."
     },
     {
         title: "Nine of Cups",
