@@ -152,7 +152,7 @@ const deck = [
         title: "Justice",
         image: Justice,
         upward: "Justice will bring into account the querent's actions and it will be judged fairly without bias. This card generally involves legal matters or external factors to the querent.",
-        downward: "Downward, Justice wants to bring to the querent's attention that the final decision on the subject in the matter will feel unfair and rough."
+        downward: "Downward, Justice wants to bring to the querent's attention that the final decision on the subject in the matter will feel unfair."
     },
     {
         title: "The Hanged Man",
