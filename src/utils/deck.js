@@ -452,7 +452,7 @@ const deck = [
         title: "Knight of Swords",
         image: Swords12,
         upward: "The Knight of Swords indicates a person that is dominant, action oriented, fast thinker. Set to accomplish his goals, is what matters the most.",
-        downward: "Downward, the Knight of Swords indicates a person that the querent should take a careful approach to the situation as it is delicate and rushing would only cause harm."
+        downward: "Downward, the Knight of Swords indicates the querent should take a careful approach to the situation as it is delicate and rushing would only cause harm."
     },
     {
         title: "Queen of Swords",
