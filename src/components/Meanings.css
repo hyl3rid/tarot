@@ -25,7 +25,6 @@
 
 .meanings__links {
     color: #fff;
-    text-decoration: none;
 }
 
 .meanings__links:hover {
@@ -34,6 +33,7 @@
 
 .meanings__back-top {
     cursor: pointer;
+    text-decoration: underline;
 }
 
 .meanings__back-top:hover {
