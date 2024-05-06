@@ -379,7 +379,7 @@ const deck = [
     {
         title: "King of Cups",
         image: Cups14,
-        upward: "The King of Cup is a very stable person emotionally that is able to handle a lot of different situations without being emotionally drained.",
+        upward: "The King of Cups is a very stable person emotionally that is able to handle a lot of different situations without being emotionally drained.",
         downward: "Downward, the King of Cup wants to advise the querent to practice self control and not let events cause an emotional trigger."
     },
     {
