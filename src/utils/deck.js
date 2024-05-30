@@ -194,7 +194,7 @@ const deck = [
         title: "The Moon",
         image: Moon,
         upward: "The Moon represents mystery and unknown rules of the universe. These forces are affecting how the events unfold. Intuition and careful decision-making will be the best path forward.",
-        downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown or misunderstood causes. Try to be extremely cautious about the decisions taken and follow your intuition."
+        downward: "Downward, The Moon represents misunderstandings and conflict for the querent due to unknown energies. Try to be extremely cautious about the decisions taken and follow your intuition."
     },
     {
         title: "The Sun",
