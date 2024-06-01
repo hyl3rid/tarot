@@ -145,7 +145,7 @@ const deck = [
     {
         title: "The Wheel of Fortune",
         image: WheelOfFortune,
-        upward: "The Wheel of Fortune is a positive omen that you are in flow with the laws of the universe. It reminds us that change is the only constant.",
+        upward: "The Wheel of Fortune is a positive omen that the querent is in flow with the laws of the universe. It reminds us that change is the only constant.",
         downward: "Downward, The Wheel of Fortune indicates that even if things are going well, the current direction of the querent is not aligned with the highest purpose."
     },
     {
